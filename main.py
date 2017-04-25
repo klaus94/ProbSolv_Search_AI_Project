@@ -1,5 +1,6 @@
 import sys
-
+import matplotlib.pyplot as plt
+import numpy as np
 
 # parses single-test-data into a tuple (machine-count, job-list)
 def parse_single(single_data):
@@ -57,16 +58,59 @@ def parse():
 	
 	return training_data
 
+# plot solution in nice bar-chart
+# solution is a 2d-array: 
+# [ [(0, 2, 0), (2, 2, 1)],			-> jobs in machine 1
+#   [(0, 2, 0), (2, 2, 1)] ]		-> jobs in machine 2
+# (0, 2, 0).. (begin, length, job-nr)
+def plot_solution(solution):
+	machine_count = len(solution)
+	y_pos = np.arange(machine_count)
+	machine_names = ["M" + str(x) for x in range(machine_count)]
+
+	fig = plt.figure(figsize=(10,8))
+	ax = fig.add_subplot(111)
+
+	# colors ='rgbwmc'
+
+	colors = ['#0048BA','#B0BF1A','#7CB9E8', '#84DE02', '#E32636', '#C46210', '#EFDECD', '#E52B50', 
+	'#F19CBB', '#FFBF00', '#00C4B0', '#9966CC', '#A4C639', '#CD9575', '#665D1E', '#915C83', '#841B2D',
+	'#00FFFF', '#D0FF14', '#E9D66B', '#B2BEB5', '#FF9966', '#A52A2A', '#FF2052']
+
+	for machine in range(machine_count):
+		for task in solution[machine]:
+			color = colors[task[2]-1]		
+			ax.barh([machine], [task[1]], color=color, align='center', left=[task[0]])
+
+	# mabe later: label tasks
+	# go through all of the bar segments and annotate
+	# for j in xrange(len(patch_handles)):
+	# 	for i, patch in enumerate(patch_handles[j].get_children()):
+	# 		bl = patch.get_xy()
+	# 		x = 0.5*patch.get_width() + bl[0]
+	# 		y = 0.5*patch.get_height() + bl[1]
+	# 		ax.text(x,y, "%d%%" % (percentages[i,j]), ha='center')
+
+	ax.set_yticks(y_pos)
+	ax.set_yticklabels(machine_names)
+	ax.set_xlabel('time')
+
+	plt.show()
 
 
 def main():
-	test_data_name = sys.argv[1]
+	test_data_name = "abz5"
+	if len(sys.argv) > 1:
+		test_data_name = sys.argv[1]
+	
 	task_dict = parse()
 
-	if test_data_name == "":
-		test_data_name = "abz5"
-		
 	print task_dict[test_data_name]
+
+	# todo: algorithm
+
+	solution = ([[(0, 2, 1), (3, 2, 1)], [(0, 1, 1), (1, 2, 2)], [(0, 2, 0), (2, 2, 0)], [(0, 2, 0), (2, 2, 4)], [(0, 2, 5), (2, 2, 6)], [(0, 2, 7), (2, 2, 8)]])
+	plot_solution(solution)
 
 
 

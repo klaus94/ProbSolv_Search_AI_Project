@@ -1,0 +1,35 @@
+geg: 
+Maschinen: 3
+Job1: (1 12) (2 12)
+Job2: (2 52) (1 35)
+...
+
+ges:
+Verteilung der Jobs auf die gegebenen Maschinen
+
+
+Bed.: 
+- Jobs können unabhängig voneinander bearbeitet werden.
+- Reihenfolge innerhalb eines Jobs muss berücksichtig werden
+
+- Implementierung mit einem der Formalismen aus der Vorlesung
+
+Erfolgs-Kriterium:
+- Gesamtzeit minimieren
+	-> wenig Leerlauf-Phasen
+- testen mittels Daten aus Links (.txt)
+
+
+mögliche Algorithmen:
+- Tabu-Search (schwer)
+- ASP
+- Constraint Satisfaction
+
+
+Prozess (bis Ende Mai):
+- Analyse
+- Evaluierungs-Funktion
+- Was ist eine Lösung
+- Nachbarschaft von Lösungen (ähnliche Lösungen)
+- Constraints definieren
+- Methoden gegeneinander abwägen

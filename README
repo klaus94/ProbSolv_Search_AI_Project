@@ -1,35 +1,29 @@
-geg: 
-Maschinen: 3
-Job1: (1 12) (2 12)
-Job2: (2 52) (1 35)
-...
+Dokumentation zum Projekt "Job Shop Scheduling"
+----------------------------------------------
 
-ges:
-Verteilung der Jobs auf die gegebenen Maschinen
+Wie ist der prinzipielle Ablauf des Programms?
+	Parser -> Lösungsalgorithmus -> Plotten der Lösung
 
 
-Bed.: 
-- Jobs können unabhängig voneinander bearbeitet werden.
-- Reihenfolge innerhalb eines Jobs muss berücksichtig werden
+Wie sind die Schnittstellen designt?
+	- Daten -> Parser: in Form der unveränderten data.txt Datei
+	- Parser -> Algorithmus: Tupel: (Anzahl_Maschinen, Job_liste)
+		wobei ein Jobs aus der Jobliste wiederum eine Liste aus Sub_Jobs ist: (Maschine, Zeit)
+		z.B.: (3, [
+					[(1, 2), (2, 2), (2, 1)],				# Job 1
+					[(1, 3), (1, 5), (2, 3)],				# Job 2
+					[(2, 5), (2, 1), (3, 2)]				# Job 3
+				  ]
+			  )
+	- Algorithmus -> Plotter: Liste aus Zeitplänen für jede Maschine
+		wobei ein Zeitplan eine Liste von Sub_Jobs ist und ein Subjob ein Tupel: (Start, Länge, Job-Nr)
+		z.B.: [
+				  [(0, 2, 1), (2, 2, 2), (4, 1, 3), (5, 2, 1)],		# Maschine 1
+				  [(0, 3, 2), (3, 2, 1), (5, 1, 3), (6, 2, 1)],		# Maschine 2
+				  [(0, 1, 1), (1, 1, 2), (2, 5, 3), (7, 2, 1)],		# Maschine 3
+			  ]
 
-- Implementierung mit einem der Formalismen aus der Vorlesung
-
-Erfolgs-Kriterium:
-- Gesamtzeit minimieren
-	-> wenig Leerlauf-Phasen
-- testen mittels Daten aus Links (.txt)
-
-
-mögliche Algorithmen:
-- Tabu-Search (schwer)
-- ASP
-- Constraint Satisfaction
-
-
-Prozess (bis Ende Mai):
-- Analyse
-- Evaluierungs-Funktion
-- Was ist eine Lösung
-- Nachbarschaft von Lösungen (ähnliche Lösungen)
-- Constraints definieren
-- Methoden gegeneinander abwägen
+Benutzung
+> python main.py [TrainingsSetName]
+z.B.
+> python main.py abz8

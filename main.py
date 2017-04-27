@@ -1,6 +1,7 @@
 import sys
 import matplotlib.pyplot as plt
 import numpy as np
+import algorithms
 
 # parses single-test-data into a tuple (machine-count, job-list)
 def parse_single(single_data):
@@ -23,9 +24,6 @@ def parse_single(single_data):
 			job = []
 			for i in range(len(splitted_line)//2):
 				try:
-					# print splitted_line[i*2]
-					# print splitted_line[i*2+1]
-					# print "\n\n"
 					machine_nr = int(splitted_line[i*2])
 					time = int(splitted_line[i*2+1])
 					job.append((machine_nr, time))
@@ -99,18 +97,19 @@ def plot_solution(solution):
 
 
 def main():
+	# parse test data
 	test_data_name = "abz5"
 	if len(sys.argv) > 1:
 		test_data_name = sys.argv[1]
-	
 	task_dict = parse()
+	(machine_count, jobs) = task_dict[test_data_name]
 
-	print task_dict[test_data_name]
+	# call our algorithm
+	solution = algorithms.basicAlgorithm(machine_count, jobs)
 
-	# todo: algorithm
-
-	solution = ([[(0, 2, 1), (3, 2, 1)], [(0, 1, 1), (1, 2, 2)], [(0, 2, 0), (2, 2, 0)], [(0, 2, 0), (2, 2, 4)], [(0, 2, 5), (2, 2, 6)], [(0, 2, 7), (2, 2, 8)]])
+	# plot the solution
 	plot_solution(solution)
+
 
 
 

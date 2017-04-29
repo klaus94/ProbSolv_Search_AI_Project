@@ -1,10 +1,15 @@
-import sys
+import sys 						# evaluate program parameter
+import imp 						# evaluate installed packages
+import numpy as np 				# math
+import algorithms				# our own module
+try:							# import matplotlib, if it is installed
+	imp.find_module('matplotlib')
+	isMatplotlibInstalled = True
+except ImportError:
+	isMatplotlibInstalled = False
+if isMatplotlibInstalled:
+	import matplotlib.pyplot as plt 	# library for plotting
 
-sys.path.append("matplot_files/matplotlib")
-from matplotlib import pyplot as plt
-# import matplotlib.pyplot as plt
-import numpy as np
-import algorithms
 
 # parses single-test-data into a tuple (machine-count, job-list)
 def parse_single(single_data):
@@ -111,8 +116,11 @@ def main():
 	print jobs
 	solution = algorithms.basicAlgorithm(machine_count, jobs)
 
+	# todo: output our solution into a file
+
 	# plot the solution
-	plot_solution(solution)
+	if isMatplotlibInstalled:
+		plot_solution(solution)
 
 
 

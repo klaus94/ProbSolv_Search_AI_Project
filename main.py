@@ -1,5 +1,8 @@
 import sys
-import matplotlib.pyplot as plt
+
+sys.path.append("matplot_files/matplotlib")
+from matplotlib import pyplot as plt
+# import matplotlib.pyplot as plt
 import numpy as np
 import algorithms
 
@@ -105,6 +108,7 @@ def main():
 	(machine_count, jobs) = task_dict[test_data_name]
 
 	# call our algorithm
+	print jobs
 	solution = algorithms.basicAlgorithm(machine_count, jobs)
 
 	# plot the solution

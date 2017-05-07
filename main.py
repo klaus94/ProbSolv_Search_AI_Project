@@ -114,7 +114,7 @@ def main():
 
 	# call our algorithm
 	print jobs
-	solution = algorithms.basicAlgorithm(machine_count, jobs)
+	solution = algorithms.baseLineAlg(machine_count, jobs)
 
 	# todo: output our solution into a file
 

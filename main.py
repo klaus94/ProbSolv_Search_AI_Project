@@ -6,6 +6,7 @@ try:							# import matplotlib, if it is installed
 	imp.find_module('matplotlib')
 	isMatplotlibInstalled = True
 except ImportError:
+	print "you have not installed 'matplotlib'. Please install it to get a nice representation of the solution"
 	isMatplotlibInstalled = False
 if isMatplotlibInstalled:
 	import matplotlib.pyplot as plt 	# library for plotting
@@ -113,10 +114,12 @@ def main():
 	(machine_count, jobs) = task_dict[test_data_name]
 
 	# call our algorithm
-	print jobs
+	# print jobs
 	solution = algorithms.baseLineAlg(machine_count, jobs)
 
 	# todo: output our solution into a file
+	for mach in solution:
+		print mach
 
 	# plot the solution
 	if isMatplotlibInstalled:

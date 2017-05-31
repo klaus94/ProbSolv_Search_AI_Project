@@ -21,9 +21,10 @@ Erfolgs-Kriterium:
 
 
 mögliche Algorithmen:
-- Tabu-Search (schwer)
-- ASP
+- Tabu-Search (schwer)						(X)
+- ASP										 X
 - Constraint Satisfaction
+- evolutionary alg.							(X)
 
 
 Prozess (bis Ende Mai):

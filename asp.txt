@@ -1,0 +1,58 @@
+Ideen, wie man das Problem mittels ASP modellieren kann
+-------------------------------------------------------
+
+input:
+- n maschinen
+- m jobs (menge von subjobs)
+
+output:
+- n belegungspläne (pro maschine einer) ODER jeder Subjob hat ein Beginn, Länge, Maschine
+
+
+definitions
+-----------
+- Anzahl an Maschinen
+- gegebene Jobs mit Subjobs
+
+> machine(1..n)
+> subjob(1..job_count, start_time, length, machine_nr, job_nr)			% die subjobs innerhalb eines jobs sind geordnet nach dem ersten
+																		% Parameter
+> {exec(M, T..T+L, J) : machine(M), subjob(J, T, L, M, _) }.			% execute... eine Maschine führt zum Zeitpunkt T einen Job J aus
+
+
+
+constraints
+-----------
+- jede maschine führt zu einer Zeit nur einen subjob aus
+machine(A), machine(B),
+
+> :- exec(M, T, J), exec(M, T, I), I==J
+
+- ein subjob kann nur ausgeführt werden nach der Erledigung des subjobs (innerhalb des Jobs) der vor ihm dran ist (maschinenunabhängig)
+
+> :- exec(_, T1, J), exec(_, T2, I), subjob(A, _, _, _, Nr), subjob(B, _, _, _, Nr),  A<B, T1<T2
+
+
+optimization
+------------
+minimize(gesamtzeit)
+
+
+
+
+############## EXAMPLE #############
+
+
+machine(1..2).
+subjob(1, 2, 1, 1).   % (index, length, machine, main_job)
+subjob(2, 3, 2, 1).
+subjob(3, 1, 1, 2).
+subjob(4, 1, 2, 2).
+time(1..20).
+
+4{exec(M, T, J) : machine(M), time(T), subjob(J, L, M, _) }40.    % (machine, starttime, job)
+
+:- exec(M, T1, I1), exec(M, T2, I2), subjob(I1, L, M, _), subjob(I2, _, M, _), I1 < I2, T1 + L >= T2.
+:- exec(_, T1, J), exec(_, T2, I), subjob(I1, L, _, Nr), subjob(I2, _, _, Nr),  I1 < I2, T1+L <= T2.
+
+#show exec/3.

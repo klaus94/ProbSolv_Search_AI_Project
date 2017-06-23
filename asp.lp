@@ -1,10 +1,10 @@
 % data
 
 machine(1..2).
-time(1..20).
+time(0..20).
 subjob(1, 5, 1, 1).   % (index, length, machine, main_job)
-subjob(2, 10, 2, 1).
-subjob(3, 1, 1, 2).
+subjob(2, 1, 2, 1).
+subjob(3, 3, 1, 2).
 subjob(4, 1, 2, 2).
 
 
@@ -25,9 +25,10 @@ subjob(4, 1, 2, 2).
 :- exec(M, T1, I1), exec(M, T2, I2), subjob(I1, L, M, _), subjob(I2, _, M, _), I1 < I2, T1 + L > T2.
 
 % one subjob can start after its predecessor finished
-T1+L < T2 :- exec(_, T1, J1), exec(_, T2, J2), subjob(J1, L, _, Nr), subjob(J2, _, _, Nr), J1 < J2.
-
+:- exec(_, T2, J2), exec(_, T1, J1), subjob(J1, L, _, N), subjob(J2, _, _, N), J1 < J2, T1+L > T2.
 
 % todo: optimizer ...
+% optimize sum of starttimes
+#minimize { T, L : exec(_, T, J), subjob(J, L, _, _), time(T)}.
 
 #show exec/3.

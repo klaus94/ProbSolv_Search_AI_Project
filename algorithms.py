@@ -1,4 +1,4 @@
-
+import aspParser
 
 # IN: (machine_count, [job1, job2, job3, ...])
 #	->	job... [(machineNr, time), (machineNr, time), ...]
@@ -23,3 +23,16 @@ def baseLineAlg(machine_count, jobs):
 
 
 	return machine_jobs
+
+
+def asp(machine_count, jobs):
+	prog = aspParser.aspParse(machine_count, jobs)
+	print prog
+	prog_file = open("genProg.lp", "w")
+	prog_file.write(prog)
+	prog_file.close()
+
+	# todo: execute gringo
+	# todo: evaluage output and parse solution back into solution object
+
+	return baseLineAlg(machine_count, jobs)

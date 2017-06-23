@@ -107,15 +107,16 @@ def plot_solution(solution):
 
 def main():
 	# parse test data
-	test_data_name = "abz5"
+	test_data_name = "aaaa"
 	if len(sys.argv) > 1:
 		test_data_name = sys.argv[1]
 	task_dict = parse()
+	print task_dict.keys()
 	(machine_count, jobs) = task_dict[test_data_name]
 
 	# call our algorithm
 	# print jobs
-	solution = algorithms.baseLineAlg(machine_count, jobs)
+	solution = algorithms.asp(machine_count, jobs)
 
 	# todo: output our solution into a file
 	for mach in solution:

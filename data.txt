@@ -50,6 +50,15 @@ The machines are numbered starting with 0.
 
  +++++++++++++++++++++++++++++
  
+ instance aaaa
+ 
+ +++++++++++++++++++++++++++++
+ Test 3x3 instance (Table 1, instance 4)
+ 2 2
+ 0 8 1 8
+ 1 2 0 1
+ +++++++++++++++++++++++++++++
+ 
  instance abz5
  
  +++++++++++++++++++++++++++++

@@ -1,0 +1,701 @@
+clasp version 3.1.4
+Reading from stdin
+Solving...
+Answer: 1
+exec(1,166,2) exec(1,181,3) exec(0,97,1) exec(0,200,4)
+Optimization: 644
+Answer: 2
+exec(1,166,2) exec(1,181,3) exec(0,97,1) exec(0,199,4)
+Optimization: 643
+Answer: 3
+exec(1,166,2) exec(1,181,3) exec(0,97,1) exec(0,198,4)
+Optimization: 642
+Answer: 4
+exec(1,166,2) exec(1,181,3) exec(0,97,1) exec(0,197,4)
+Optimization: 641
+Answer: 5
+exec(1,166,2) exec(1,181,3) exec(0,97,1) exec(0,196,4)
+Optimization: 640
+Answer: 6
+exec(1,166,2) exec(1,181,3) exec(0,97,1) exec(0,195,4)
+Optimization: 639
+Answer: 7
+exec(1,166,2) exec(1,181,3) exec(0,97,1) exec(0,194,4)
+Optimization: 638
+Answer: 8
+exec(1,166,2) exec(1,181,3) exec(0,97,1) exec(0,193,4)
+Optimization: 637
+Answer: 9
+exec(1,166,2) exec(1,181,3) exec(0,97,1) exec(0,192,4)
+Optimization: 636
+Answer: 10
+exec(1,166,2) exec(1,181,3) exec(0,97,1) exec(0,191,4)
+Optimization: 635
+Answer: 11
+exec(1,166,2) exec(1,181,3) exec(0,97,1) exec(0,190,4)
+Optimization: 634
+Answer: 12
+exec(1,166,2) exec(1,181,3) exec(0,97,1) exec(0,189,4)
+Optimization: 633
+Answer: 13
+exec(1,166,2) exec(1,181,3) exec(0,97,1) exec(0,188,4)
+Optimization: 632
+Answer: 14
+exec(1,166,2) exec(1,181,3) exec(0,97,1) exec(0,187,4)
+Optimization: 631
+Answer: 15
+exec(1,166,2) exec(1,181,3) exec(0,97,1) exec(0,186,4)
+Optimization: 630
+Answer: 16
+exec(1,166,2) exec(1,181,3) exec(0,97,1) exec(0,185,4)
+Optimization: 629
+Answer: 17
+exec(1,166,2) exec(1,181,3) exec(0,97,1) exec(0,184,4)
+Optimization: 628
+Answer: 18
+exec(1,166,2) exec(1,181,3) exec(0,97,1) exec(0,183,4)
+Optimization: 627
+Answer: 19
+exec(1,109,2) exec(1,181,3) exec(0,97,1) exec(0,200,4)
+Optimization: 587
+Answer: 20
+exec(1,108,2) exec(1,181,3) exec(0,97,1) exec(0,200,4)
+Optimization: 586
+Answer: 21
+exec(1,106,2) exec(1,181,3) exec(0,97,1) exec(0,200,4)
+Optimization: 584
+Answer: 22
+exec(1,105,2) exec(1,181,3) exec(0,97,1) exec(0,200,4)
+Optimization: 583
+Answer: 23
+exec(1,105,2) exec(1,181,3) exec(0,97,1) exec(0,199,4)
+Optimization: 582
+Answer: 24
+exec(1,105,2) exec(1,181,3) exec(0,97,1) exec(0,198,4)
+Optimization: 581
+Answer: 25
+exec(1,105,2) exec(1,181,3) exec(0,97,1) exec(0,197,4)
+Optimization: 580
+Answer: 26
+exec(1,105,2) exec(1,181,3) exec(0,97,1) exec(0,196,4)
+Optimization: 579
+Answer: 27
+exec(1,105,2) exec(1,181,3) exec(0,97,1) exec(0,195,4)
+Optimization: 578
+Answer: 28
+exec(1,105,2) exec(1,181,3) exec(0,97,1) exec(0,194,4)
+Optimization: 577
+Answer: 29
+exec(1,105,2) exec(1,181,3) exec(0,97,1) exec(0,193,4)
+Optimization: 576
+Answer: 30
+exec(1,105,2) exec(1,181,3) exec(0,97,1) exec(0,192,4)
+Optimization: 575
+Answer: 31
+exec(1,105,2) exec(1,181,3) exec(0,97,1) exec(0,191,4)
+Optimization: 574
+Answer: 32
+exec(1,105,2) exec(1,181,3) exec(0,97,1) exec(0,190,4)
+Optimization: 573
+Answer: 33
+exec(1,105,2) exec(1,181,3) exec(0,97,1) exec(0,189,4)
+Optimization: 572
+Answer: 34
+exec(1,105,2) exec(1,181,3) exec(0,97,1) exec(0,188,4)
+Optimization: 571
+Answer: 35
+exec(1,105,2) exec(1,181,3) exec(0,97,1) exec(0,187,4)
+Optimization: 570
+Answer: 36
+exec(1,105,2) exec(1,181,3) exec(0,97,1) exec(0,186,4)
+Optimization: 569
+Answer: 37
+exec(1,105,2) exec(1,181,3) exec(0,97,1) exec(0,185,4)
+Optimization: 568
+Answer: 38
+exec(1,105,2) exec(1,181,3) exec(0,97,1) exec(0,184,4)
+Optimization: 567
+Answer: 39
+exec(1,105,2) exec(1,181,3) exec(0,97,1) exec(0,183,4)
+Optimization: 566
+Answer: 40
+exec(1,166,2) exec(1,181,3) exec(0,0,1) exec(0,186,4)
+Optimization: 533
+Answer: 41
+exec(1,129,2) exec(1,181,3) exec(0,0,1) exec(0,186,4)
+Optimization: 496
+Answer: 42
+exec(1,124,2) exec(1,181,3) exec(0,0,1) exec(0,186,4)
+Optimization: 491
+Answer: 43
+exec(1,115,2) exec(1,181,3) exec(0,0,1) exec(0,186,4)
+Optimization: 482
+Answer: 44
+exec(1,86,2) exec(1,181,3) exec(0,0,1) exec(0,186,4)
+Optimization: 453
+Answer: 45
+exec(1,67,2) exec(1,181,3) exec(0,0,1) exec(0,186,4)
+Optimization: 434
+Answer: 46
+exec(1,29,2) exec(1,181,3) exec(0,0,1) exec(0,186,4)
+Optimization: 396
+Answer: 47
+exec(1,9,2) exec(1,181,3) exec(0,0,1) exec(0,186,4)
+Optimization: 376
+Answer: 48
+exec(1,8,2) exec(1,181,3) exec(0,0,1) exec(0,186,4)
+Optimization: 375
+Answer: 49
+exec(1,9,2) exec(1,181,3) exec(0,0,1) exec(0,183,4)
+Optimization: 373
+Answer: 50
+exec(1,17,2) exec(1,173,3) exec(0,0,1) exec(0,182,4)
+Optimization: 372
+Answer: 51
+exec(1,8,2) exec(1,173,3) exec(0,0,1) exec(0,182,4)
+Optimization: 363
+Answer: 52
+exec(1,8,2) exec(1,172,3) exec(0,0,1) exec(0,182,4)
+Optimization: 362
+Answer: 53
+exec(1,8,2) exec(1,171,3) exec(0,0,1) exec(0,182,4)
+Optimization: 361
+Answer: 54
+exec(1,8,2) exec(1,170,3) exec(0,0,1) exec(0,182,4)
+Optimization: 360
+Answer: 55
+exec(1,20,2) exec(1,117,3) exec(0,0,1) exec(0,182,4)
+Optimization: 319
+Answer: 56
+exec(1,19,2) exec(1,117,3) exec(0,0,1) exec(0,182,4)
+Optimization: 318
+Answer: 57
+exec(1,11,2) exec(1,117,3) exec(0,0,1) exec(0,182,4)
+Optimization: 310
+Answer: 58
+exec(1,8,2) exec(1,117,3) exec(0,0,1) exec(0,182,4)
+Optimization: 307
+Answer: 59
+exec(1,49,2) exec(1,57,3) exec(0,0,1) exec(0,182,4)
+Optimization: 288
+Answer: 60
+exec(1,41,2) exec(1,57,3) exec(0,0,1) exec(0,182,4)
+Optimization: 280
+Answer: 61
+exec(1,24,2) exec(1,57,3) exec(0,0,1) exec(0,182,4)
+Optimization: 263
+Answer: 62
+exec(1,12,2) exec(1,57,3) exec(0,0,1) exec(0,182,4)
+Optimization: 251
+Answer: 63
+exec(1,11,2) exec(1,57,3) exec(0,0,1) exec(0,182,4)
+Optimization: 250
+Answer: 64
+exec(1,9,2) exec(1,54,3) exec(0,0,1) exec(0,182,4)
+Optimization: 245
+Answer: 65
+exec(1,8,2) exec(1,54,3) exec(0,0,1) exec(0,182,4)
+Optimization: 244
+Answer: 66
+exec(1,20,2) exec(1,38,3) exec(0,0,1) exec(0,182,4)
+Optimization: 240
+Answer: 67
+exec(1,20,2) exec(1,34,3) exec(0,0,1) exec(0,182,4)
+Optimization: 236
+Answer: 68
+exec(1,20,2) exec(1,29,3) exec(0,0,1) exec(0,182,4)
+Optimization: 231
+Answer: 69
+exec(1,20,2) exec(1,28,3) exec(0,0,1) exec(0,182,4)
+Optimization: 230
+Answer: 70
+exec(1,16,2) exec(1,31,3) exec(0,0,1) exec(0,182,4)
+Optimization: 229
+Answer: 71
+exec(1,16,2) exec(1,27,3) exec(0,0,1) exec(0,182,4)
+Optimization: 225
+Answer: 72
+exec(1,16,2) exec(1,24,3) exec(0,0,1) exec(0,182,4)
+Optimization: 222
+Answer: 73
+exec(1,15,2) exec(1,23,3) exec(0,0,1) exec(0,182,4)
+Optimization: 220
+Answer: 74
+exec(1,10,2) exec(1,21,3) exec(0,0,1) exec(0,182,4)
+Optimization: 213
+Answer: 75
+exec(1,10,2) exec(1,18,3) exec(0,0,1) exec(0,182,4)
+Optimization: 210
+Answer: 76
+exec(1,9,2) exec(1,17,3) exec(0,0,1) exec(0,182,4)
+Optimization: 208
+Answer: 77
+exec(1,8,2) exec(1,17,3) exec(0,0,1) exec(0,182,4)
+Optimization: 207
+Answer: 78
+exec(1,8,2) exec(1,16,3) exec(0,0,1) exec(0,182,4)
+Optimization: 206
+Answer: 79
+exec(1,8,2) exec(1,16,3) exec(0,0,1) exec(0,180,4)
+Optimization: 204
+Answer: 80
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,161,4)
+Optimization: 203
+Answer: 81
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,160,4)
+Optimization: 202
+Answer: 82
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,159,4)
+Optimization: 201
+Answer: 83
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,158,4)
+Optimization: 200
+Answer: 84
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,157,4)
+Optimization: 199
+Answer: 85
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,156,4)
+Optimization: 198
+Answer: 86
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,155,4)
+Optimization: 197
+Answer: 87
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,154,4)
+Optimization: 196
+Answer: 88
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,153,4)
+Optimization: 195
+Answer: 89
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,152,4)
+Optimization: 194
+Answer: 90
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,151,4)
+Optimization: 193
+Answer: 91
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,150,4)
+Optimization: 192
+Answer: 92
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,149,4)
+Optimization: 191
+Answer: 93
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,148,4)
+Optimization: 190
+Answer: 94
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,147,4)
+Optimization: 189
+Answer: 95
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,146,4)
+Optimization: 188
+Answer: 96
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,145,4)
+Optimization: 187
+Answer: 97
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,144,4)
+Optimization: 186
+Answer: 98
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,143,4)
+Optimization: 185
+Answer: 99
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,142,4)
+Optimization: 184
+Answer: 100
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,141,4)
+Optimization: 183
+Answer: 101
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,140,4)
+Optimization: 182
+Answer: 102
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,139,4)
+Optimization: 181
+Answer: 103
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,138,4)
+Optimization: 180
+Answer: 104
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,137,4)
+Optimization: 179
+Answer: 105
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,136,4)
+Optimization: 178
+Answer: 106
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,135,4)
+Optimization: 177
+Answer: 107
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,134,4)
+Optimization: 176
+Answer: 108
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,133,4)
+Optimization: 175
+Answer: 109
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,132,4)
+Optimization: 174
+Answer: 110
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,131,4)
+Optimization: 173
+Answer: 111
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,130,4)
+Optimization: 172
+Answer: 112
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,129,4)
+Optimization: 171
+Answer: 113
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,128,4)
+Optimization: 170
+Answer: 114
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,127,4)
+Optimization: 169
+Answer: 115
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,126,4)
+Optimization: 168
+Answer: 116
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,125,4)
+Optimization: 167
+Answer: 117
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,124,4)
+Optimization: 166
+Answer: 118
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,123,4)
+Optimization: 165
+Answer: 119
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,122,4)
+Optimization: 164
+Answer: 120
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,121,4)
+Optimization: 163
+Answer: 121
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,120,4)
+Optimization: 162
+Answer: 122
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,119,4)
+Optimization: 161
+Answer: 123
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,118,4)
+Optimization: 160
+Answer: 124
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,117,4)
+Optimization: 159
+Answer: 125
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,116,4)
+Optimization: 158
+Answer: 126
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,115,4)
+Optimization: 157
+Answer: 127
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,114,4)
+Optimization: 156
+Answer: 128
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,113,4)
+Optimization: 155
+Answer: 129
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,112,4)
+Optimization: 154
+Answer: 130
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,111,4)
+Optimization: 153
+Answer: 131
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,110,4)
+Optimization: 152
+Answer: 132
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,109,4)
+Optimization: 151
+Answer: 133
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,108,4)
+Optimization: 150
+Answer: 134
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,107,4)
+Optimization: 149
+Answer: 135
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,106,4)
+Optimization: 148
+Answer: 136
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,105,4)
+Optimization: 147
+Answer: 137
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,104,4)
+Optimization: 146
+Answer: 138
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,103,4)
+Optimization: 145
+Answer: 139
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,102,4)
+Optimization: 144
+Answer: 140
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,101,4)
+Optimization: 143
+Answer: 141
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,100,4)
+Optimization: 142
+Answer: 142
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,99,4)
+Optimization: 141
+Answer: 143
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,98,4)
+Optimization: 140
+Answer: 144
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,97,4)
+Optimization: 139
+Answer: 145
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,96,4)
+Optimization: 138
+Answer: 146
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,95,4)
+Optimization: 137
+Answer: 147
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,94,4)
+Optimization: 136
+Answer: 148
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,93,4)
+Optimization: 135
+Answer: 149
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,92,4)
+Optimization: 134
+Answer: 150
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,91,4)
+Optimization: 133
+Answer: 151
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,90,4)
+Optimization: 132
+Answer: 152
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,89,4)
+Optimization: 131
+Answer: 153
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,88,4)
+Optimization: 130
+Answer: 154
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,87,4)
+Optimization: 129
+Answer: 155
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,86,4)
+Optimization: 128
+Answer: 156
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,85,4)
+Optimization: 127
+Answer: 157
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,84,4)
+Optimization: 126
+Answer: 158
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,83,4)
+Optimization: 125
+Answer: 159
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,82,4)
+Optimization: 124
+Answer: 160
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,81,4)
+Optimization: 123
+Answer: 161
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,80,4)
+Optimization: 122
+Answer: 162
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,79,4)
+Optimization: 121
+Answer: 163
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,78,4)
+Optimization: 120
+Answer: 164
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,77,4)
+Optimization: 119
+Answer: 165
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,76,4)
+Optimization: 118
+Answer: 166
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,75,4)
+Optimization: 117
+Answer: 167
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,74,4)
+Optimization: 116
+Answer: 168
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,73,4)
+Optimization: 115
+Answer: 169
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,72,4)
+Optimization: 114
+Answer: 170
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,71,4)
+Optimization: 113
+Answer: 171
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,70,4)
+Optimization: 112
+Answer: 172
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,69,4)
+Optimization: 111
+Answer: 173
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,68,4)
+Optimization: 110
+Answer: 174
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,67,4)
+Optimization: 109
+Answer: 175
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,66,4)
+Optimization: 108
+Answer: 176
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,65,4)
+Optimization: 107
+Answer: 177
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,64,4)
+Optimization: 106
+Answer: 178
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,63,4)
+Optimization: 105
+Answer: 179
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,62,4)
+Optimization: 104
+Answer: 180
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,61,4)
+Optimization: 103
+Answer: 181
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,60,4)
+Optimization: 102
+Answer: 182
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,59,4)
+Optimization: 101
+Answer: 183
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,58,4)
+Optimization: 100
+Answer: 184
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,57,4)
+Optimization: 99
+Answer: 185
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,56,4)
+Optimization: 98
+Answer: 186
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,55,4)
+Optimization: 97
+Answer: 187
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,54,4)
+Optimization: 96
+Answer: 188
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,53,4)
+Optimization: 95
+Answer: 189
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,52,4)
+Optimization: 94
+Answer: 190
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,51,4)
+Optimization: 93
+Answer: 191
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,50,4)
+Optimization: 92
+Answer: 192
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,49,4)
+Optimization: 91
+Answer: 193
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,48,4)
+Optimization: 90
+Answer: 194
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,47,4)
+Optimization: 89
+Answer: 195
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,46,4)
+Optimization: 88
+Answer: 196
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,45,4)
+Optimization: 87
+Answer: 197
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,44,4)
+Optimization: 86
+Answer: 198
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,43,4)
+Optimization: 85
+Answer: 199
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,42,4)
+Optimization: 84
+Answer: 200
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,41,4)
+Optimization: 83
+Answer: 201
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,40,4)
+Optimization: 82
+Answer: 202
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,39,4)
+Optimization: 81
+Answer: 203
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,38,4)
+Optimization: 80
+Answer: 204
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,37,4)
+Optimization: 79
+Answer: 205
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,36,4)
+Optimization: 78
+Answer: 206
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,35,4)
+Optimization: 77
+Answer: 207
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,34,4)
+Optimization: 76
+Answer: 208
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,33,4)
+Optimization: 75
+Answer: 209
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,32,4)
+Optimization: 74
+Answer: 210
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,31,4)
+Optimization: 73
+Answer: 211
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,30,4)
+Optimization: 72
+Answer: 212
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,29,4)
+Optimization: 71
+Answer: 213
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,28,4)
+Optimization: 70
+Answer: 214
+exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,27,4)
+Optimization: 69
+Answer: 215
+exec(1,16,2) exec(1,25,3) exec(0,0,1) exec(0,27,4)
+Optimization: 68
+Answer: 216
+exec(1,8,2) exec(1,25,3) exec(0,0,1) exec(0,34,4)
+Optimization: 67
+Answer: 217
+exec(1,8,2) exec(1,25,3) exec(0,0,1) exec(0,33,4)
+Optimization: 66
+Answer: 218
+exec(1,8,2) exec(1,25,3) exec(0,0,1) exec(0,32,4)
+Optimization: 65
+Answer: 219
+exec(1,8,2) exec(1,25,3) exec(0,0,1) exec(0,31,4)
+Optimization: 64
+Answer: 220
+exec(1,8,2) exec(1,25,3) exec(0,0,1) exec(0,30,4)
+Optimization: 63
+Answer: 221
+exec(1,8,2) exec(1,25,3) exec(0,0,1) exec(0,29,4)
+Optimization: 62
+Answer: 222
+exec(1,8,2) exec(1,25,3) exec(0,0,1) exec(0,28,4)
+Optimization: 61
+Answer: 223
+exec(1,8,2) exec(1,25,3) exec(0,0,1) exec(0,27,4)
+Optimization: 60
+Answer: 224
+exec(1,9,2) exec(1,19,3) exec(0,0,1) exec(0,25,4)
+Optimization: 53
+Answer: 225
+exec(1,9,2) exec(1,19,3) exec(0,0,1) exec(0,22,4)
+Optimization: 50
+Answer: 226
+exec(1,9,2) exec(1,19,3) exec(0,0,1) exec(0,21,4)
+Optimization: 49
+Answer: 227
+exec(1,8,2) exec(1,19,3) exec(0,0,1) exec(0,21,4)
+Optimization: 48
+Answer: 228
+exec(1,9,2) exec(1,17,3) exec(0,0,1) exec(0,20,4)
+Optimization: 46
+Answer: 229
+exec(1,9,2) exec(1,17,3) exec(0,0,1) exec(0,19,4)
+Optimization: 45
+Answer: 230
+exec(1,8,2) exec(1,16,3) exec(0,0,1) exec(0,18,4)
+Optimization: 42
+OPTIMUM FOUND
+
+Models       : 230   
+  Optimum    : yes
+Optimization : 42
+Calls        : 1
+Time         : 0.296s (Solving: 0.04s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 0.280s

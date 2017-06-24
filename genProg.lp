@@ -1,5 +1,5 @@
-machine(0..1).
-time(0..100).
+machine(0..2).
+time(0..200).
 subjob(1, 8, 0, 1).
 subjob(2, 8, 1, 1).
 subjob(3, 2, 1, 2).

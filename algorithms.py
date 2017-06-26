@@ -1,4 +1,5 @@
 import aspParser
+import evolSolver
 import sys
 import os
 
@@ -22,7 +23,6 @@ def baseLineAlg(machine_count, jobs):
 			t += task[1]
 
 		currentJobNr += 1
-
 
 	return machine_jobs
 
@@ -48,3 +48,6 @@ def asp(machine_count, jobs):
 	solution = aspParser.aspParseFromASP(machine_count, allJobs, log)
 	
 	return solution
+
+def evol(machine_count, jobs):
+	return evolSolver.solve(machine_count, jobs)

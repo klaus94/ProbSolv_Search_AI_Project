@@ -111,16 +111,12 @@ def main():
 	if len(sys.argv) > 1:
 		test_data_name = sys.argv[1]
 	task_dict = parse()
-	print task_dict.keys()
+	#print task_dict.keys()
 	(machine_count, jobs) = task_dict[test_data_name]
 
 	# call our algorithm
 	# print jobs
 	solution = algorithms.asp(machine_count, jobs)
-
-	# todo: output our solution into a file
-	for mach in solution:
-		print mach
 
 	# plot the solution
 	if isMatplotlibInstalled:

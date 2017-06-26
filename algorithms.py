@@ -29,7 +29,7 @@ def baseLineAlg(machine_count, jobs):
 
 def asp(machine_count, jobs):
 	prog, allJobs = aspParser.aspParse2ASP(machine_count, jobs)
-	print prog
+	# print prog
 	prog_file = open("genProg.lp", "w")
 	prog_file.write(prog)
 	prog_file.close()
@@ -42,6 +42,7 @@ def asp(machine_count, jobs):
 	# todo: evaluage output and parse solution back into solution object
 	log_file = open(LOG_FILE_NAME, "r")
 	log = log_file.read()
+	print log
 	log_file.close()
 
 	solution = aspParser.aspParseFromASP(machine_count, allJobs, log)

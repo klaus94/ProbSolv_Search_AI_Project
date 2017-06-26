@@ -62,8 +62,6 @@ def aspParseFromASP(machineCount, allJobs, log):
 		for key in allJobs.keys():
 			if (job[0] == key):				# match with subjob-key
 				currentJob = allJobs[key]
-				print currentJob[1]
-				print solution[currentJob[1]]
 				solution[currentJob[1]].append((job[1], currentJob[0], currentJob[2]))
 
 	return solution

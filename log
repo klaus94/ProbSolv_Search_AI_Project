@@ -2,700 +2,838 @@ clasp version 3.1.4
 Reading from stdin
 Solving...
 Answer: 1
-exec(1,166,2) exec(1,181,3) exec(0,97,1) exec(0,200,4)
-Optimization: 644
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,102,3) exec(2,103,7) exec(1,198,8) exec(1,200,9)
+Optimization: 715
 Answer: 2
-exec(1,166,2) exec(1,181,3) exec(0,97,1) exec(0,199,4)
-Optimization: 643
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,102,3) exec(2,103,7) exec(1,197,8) exec(1,200,9)
+Optimization: 714
 Answer: 3
-exec(1,166,2) exec(1,181,3) exec(0,97,1) exec(0,198,4)
-Optimization: 642
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,102,3) exec(2,103,7) exec(1,197,8) exec(1,199,9)
+Optimization: 713
 Answer: 4
-exec(1,166,2) exec(1,181,3) exec(0,97,1) exec(0,197,4)
-Optimization: 641
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,102,3) exec(2,103,7) exec(1,196,8) exec(1,199,9)
+Optimization: 712
 Answer: 5
-exec(1,166,2) exec(1,181,3) exec(0,97,1) exec(0,196,4)
-Optimization: 640
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,102,3) exec(2,103,7) exec(1,196,8) exec(1,198,9)
+Optimization: 711
 Answer: 6
-exec(1,166,2) exec(1,181,3) exec(0,97,1) exec(0,195,4)
-Optimization: 639
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,102,3) exec(2,103,7) exec(1,195,8) exec(1,198,9)
+Optimization: 710
 Answer: 7
-exec(1,166,2) exec(1,181,3) exec(0,97,1) exec(0,194,4)
-Optimization: 638
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,102,3) exec(2,103,7) exec(1,195,8) exec(1,197,9)
+Optimization: 709
 Answer: 8
-exec(1,166,2) exec(1,181,3) exec(0,97,1) exec(0,193,4)
-Optimization: 637
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,102,3) exec(2,103,7) exec(1,194,8) exec(1,197,9)
+Optimization: 708
 Answer: 9
-exec(1,166,2) exec(1,181,3) exec(0,97,1) exec(0,192,4)
-Optimization: 636
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,102,3) exec(2,103,7) exec(1,194,8) exec(1,196,9)
+Optimization: 707
 Answer: 10
-exec(1,166,2) exec(1,181,3) exec(0,97,1) exec(0,191,4)
-Optimization: 635
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,102,3) exec(2,103,7) exec(1,193,8) exec(1,196,9)
+Optimization: 706
 Answer: 11
-exec(1,166,2) exec(1,181,3) exec(0,97,1) exec(0,190,4)
-Optimization: 634
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,102,3) exec(2,103,7) exec(1,193,8) exec(1,195,9)
+Optimization: 705
 Answer: 12
-exec(1,166,2) exec(1,181,3) exec(0,97,1) exec(0,189,4)
-Optimization: 633
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,102,3) exec(2,103,7) exec(1,192,8) exec(1,195,9)
+Optimization: 704
 Answer: 13
-exec(1,166,2) exec(1,181,3) exec(0,97,1) exec(0,188,4)
-Optimization: 632
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,102,3) exec(2,103,7) exec(1,192,8) exec(1,194,9)
+Optimization: 703
 Answer: 14
-exec(1,166,2) exec(1,181,3) exec(0,97,1) exec(0,187,4)
-Optimization: 631
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,102,3) exec(2,103,7) exec(1,191,8) exec(1,194,9)
+Optimization: 702
 Answer: 15
-exec(1,166,2) exec(1,181,3) exec(0,97,1) exec(0,186,4)
-Optimization: 630
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,102,3) exec(2,103,7) exec(1,191,8) exec(1,193,9)
+Optimization: 701
 Answer: 16
-exec(1,166,2) exec(1,181,3) exec(0,97,1) exec(0,185,4)
-Optimization: 629
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,102,3) exec(2,103,7) exec(1,190,8) exec(1,193,9)
+Optimization: 700
 Answer: 17
-exec(1,166,2) exec(1,181,3) exec(0,97,1) exec(0,184,4)
-Optimization: 628
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,102,3) exec(2,103,7) exec(1,190,8) exec(1,192,9)
+Optimization: 699
 Answer: 18
-exec(1,166,2) exec(1,181,3) exec(0,97,1) exec(0,183,4)
-Optimization: 627
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,102,3) exec(2,103,7) exec(1,189,8) exec(1,192,9)
+Optimization: 698
 Answer: 19
-exec(1,109,2) exec(1,181,3) exec(0,97,1) exec(0,200,4)
-Optimization: 587
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,102,3) exec(2,103,7) exec(1,189,8) exec(1,191,9)
+Optimization: 697
 Answer: 20
-exec(1,108,2) exec(1,181,3) exec(0,97,1) exec(0,200,4)
-Optimization: 586
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,102,3) exec(2,103,7) exec(1,188,8) exec(1,191,9)
+Optimization: 696
 Answer: 21
-exec(1,106,2) exec(1,181,3) exec(0,97,1) exec(0,200,4)
-Optimization: 584
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,102,3) exec(2,103,7) exec(1,188,8) exec(1,190,9)
+Optimization: 695
 Answer: 22
-exec(1,105,2) exec(1,181,3) exec(0,97,1) exec(0,200,4)
-Optimization: 583
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,102,3) exec(2,103,7) exec(1,187,8) exec(1,190,9)
+Optimization: 694
 Answer: 23
-exec(1,105,2) exec(1,181,3) exec(0,97,1) exec(0,199,4)
-Optimization: 582
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,102,3) exec(2,103,7) exec(1,187,8) exec(1,189,9)
+Optimization: 693
 Answer: 24
-exec(1,105,2) exec(1,181,3) exec(0,97,1) exec(0,198,4)
-Optimization: 581
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,102,3) exec(2,103,7) exec(1,186,8) exec(1,189,9)
+Optimization: 692
 Answer: 25
-exec(1,105,2) exec(1,181,3) exec(0,97,1) exec(0,197,4)
-Optimization: 580
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,102,3) exec(2,103,7) exec(1,186,8) exec(1,188,9)
+Optimization: 691
 Answer: 26
-exec(1,105,2) exec(1,181,3) exec(0,97,1) exec(0,196,4)
-Optimization: 579
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,102,3) exec(2,103,7) exec(1,185,8) exec(1,188,9)
+Optimization: 690
 Answer: 27
-exec(1,105,2) exec(1,181,3) exec(0,97,1) exec(0,195,4)
-Optimization: 578
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,102,3) exec(2,103,7) exec(1,185,8) exec(1,187,9)
+Optimization: 689
 Answer: 28
-exec(1,105,2) exec(1,181,3) exec(0,97,1) exec(0,194,4)
-Optimization: 577
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,102,3) exec(2,103,7) exec(1,184,8) exec(1,187,9)
+Optimization: 688
 Answer: 29
-exec(1,105,2) exec(1,181,3) exec(0,97,1) exec(0,193,4)
-Optimization: 576
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,102,3) exec(2,103,7) exec(1,184,8) exec(1,186,9)
+Optimization: 687
 Answer: 30
-exec(1,105,2) exec(1,181,3) exec(0,97,1) exec(0,192,4)
-Optimization: 575
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,102,3) exec(2,103,7) exec(1,183,8) exec(1,186,9)
+Optimization: 686
 Answer: 31
-exec(1,105,2) exec(1,181,3) exec(0,97,1) exec(0,191,4)
-Optimization: 574
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,102,3) exec(2,103,7) exec(1,183,8) exec(1,185,9)
+Optimization: 685
 Answer: 32
-exec(1,105,2) exec(1,181,3) exec(0,97,1) exec(0,190,4)
-Optimization: 573
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,102,3) exec(2,103,7) exec(1,182,8) exec(1,185,9)
+Optimization: 684
 Answer: 33
-exec(1,105,2) exec(1,181,3) exec(0,97,1) exec(0,189,4)
-Optimization: 572
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,102,3) exec(2,103,7) exec(1,182,8) exec(1,184,9)
+Optimization: 683
 Answer: 34
-exec(1,105,2) exec(1,181,3) exec(0,97,1) exec(0,188,4)
-Optimization: 571
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,102,3) exec(2,103,7) exec(1,181,8) exec(1,184,9)
+Optimization: 682
 Answer: 35
-exec(1,105,2) exec(1,181,3) exec(0,97,1) exec(0,187,4)
-Optimization: 570
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,102,3) exec(2,103,7) exec(1,181,8) exec(1,183,9)
+Optimization: 681
 Answer: 36
-exec(1,105,2) exec(1,181,3) exec(0,97,1) exec(0,186,4)
-Optimization: 569
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,102,3) exec(2,103,7) exec(1,180,8) exec(1,183,9)
+Optimization: 680
 Answer: 37
-exec(1,105,2) exec(1,181,3) exec(0,97,1) exec(0,185,4)
-Optimization: 568
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,102,3) exec(2,103,7) exec(1,180,8) exec(1,182,9)
+Optimization: 679
 Answer: 38
-exec(1,105,2) exec(1,181,3) exec(0,97,1) exec(0,184,4)
-Optimization: 567
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,102,3) exec(2,103,7) exec(1,179,8) exec(1,182,9)
+Optimization: 678
 Answer: 39
-exec(1,105,2) exec(1,181,3) exec(0,97,1) exec(0,183,4)
-Optimization: 566
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,102,3) exec(2,103,7) exec(1,179,8) exec(1,181,9)
+Optimization: 677
 Answer: 40
-exec(1,166,2) exec(1,181,3) exec(0,0,1) exec(0,186,4)
-Optimization: 533
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,102,3) exec(2,103,7) exec(1,178,8) exec(1,181,9)
+Optimization: 676
 Answer: 41
-exec(1,129,2) exec(1,181,3) exec(0,0,1) exec(0,186,4)
-Optimization: 496
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,102,3) exec(2,103,7) exec(1,178,8) exec(1,180,9)
+Optimization: 675
 Answer: 42
-exec(1,124,2) exec(1,181,3) exec(0,0,1) exec(0,186,4)
-Optimization: 491
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,102,3) exec(2,103,7) exec(1,177,8) exec(1,180,9)
+Optimization: 674
 Answer: 43
-exec(1,115,2) exec(1,181,3) exec(0,0,1) exec(0,186,4)
-Optimization: 482
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,102,3) exec(2,103,7) exec(1,177,8) exec(1,179,9)
+Optimization: 673
 Answer: 44
-exec(1,86,2) exec(1,181,3) exec(0,0,1) exec(0,186,4)
-Optimization: 453
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,102,3) exec(2,103,7) exec(1,176,8) exec(1,179,9)
+Optimization: 672
 Answer: 45
-exec(1,67,2) exec(1,181,3) exec(0,0,1) exec(0,186,4)
-Optimization: 434
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,102,3) exec(2,103,7) exec(1,176,8) exec(1,178,9)
+Optimization: 671
 Answer: 46
-exec(1,29,2) exec(1,181,3) exec(0,0,1) exec(0,186,4)
-Optimization: 396
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,200,6) exec(2,102,3) exec(2,103,7) exec(1,177,8) exec(1,200,9)
+Optimization: 634
 Answer: 47
-exec(1,9,2) exec(1,181,3) exec(0,0,1) exec(0,186,4)
-Optimization: 376
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,199,6) exec(2,102,3) exec(2,103,7) exec(1,177,8) exec(1,199,9)
+Optimization: 633
 Answer: 48
-exec(1,8,2) exec(1,181,3) exec(0,0,1) exec(0,186,4)
-Optimization: 375
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,198,6) exec(2,102,3) exec(2,103,7) exec(1,177,8) exec(1,198,9)
+Optimization: 632
 Answer: 49
-exec(1,9,2) exec(1,181,3) exec(0,0,1) exec(0,183,4)
-Optimization: 373
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,197,6) exec(2,102,3) exec(2,103,7) exec(1,177,8) exec(1,197,9)
+Optimization: 631
 Answer: 50
-exec(1,17,2) exec(1,173,3) exec(0,0,1) exec(0,182,4)
-Optimization: 372
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,196,6) exec(2,102,3) exec(2,103,7) exec(1,177,8) exec(1,196,9)
+Optimization: 630
 Answer: 51
-exec(1,8,2) exec(1,173,3) exec(0,0,1) exec(0,182,4)
-Optimization: 363
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,195,6) exec(2,102,3) exec(2,103,7) exec(1,177,8) exec(1,195,9)
+Optimization: 629
 Answer: 52
-exec(1,8,2) exec(1,172,3) exec(0,0,1) exec(0,182,4)
-Optimization: 362
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,194,6) exec(2,102,3) exec(2,103,7) exec(1,177,8) exec(1,194,9)
+Optimization: 628
 Answer: 53
-exec(1,8,2) exec(1,171,3) exec(0,0,1) exec(0,182,4)
-Optimization: 361
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,193,6) exec(2,102,3) exec(2,103,7) exec(1,177,8) exec(1,193,9)
+Optimization: 627
 Answer: 54
-exec(1,8,2) exec(1,170,3) exec(0,0,1) exec(0,182,4)
-Optimization: 360
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,192,6) exec(2,102,3) exec(2,103,7) exec(1,177,8) exec(1,192,9)
+Optimization: 626
 Answer: 55
-exec(1,20,2) exec(1,117,3) exec(0,0,1) exec(0,182,4)
-Optimization: 319
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,191,6) exec(2,102,3) exec(2,103,7) exec(1,177,8) exec(1,191,9)
+Optimization: 625
 Answer: 56
-exec(1,19,2) exec(1,117,3) exec(0,0,1) exec(0,182,4)
-Optimization: 318
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,190,6) exec(2,102,3) exec(2,103,7) exec(1,177,8) exec(1,190,9)
+Optimization: 624
 Answer: 57
-exec(1,11,2) exec(1,117,3) exec(0,0,1) exec(0,182,4)
-Optimization: 310
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,189,6) exec(2,102,3) exec(2,103,7) exec(1,177,8) exec(1,189,9)
+Optimization: 623
 Answer: 58
-exec(1,8,2) exec(1,117,3) exec(0,0,1) exec(0,182,4)
-Optimization: 307
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,188,6) exec(2,102,3) exec(2,103,7) exec(1,177,8) exec(1,188,9)
+Optimization: 622
 Answer: 59
-exec(1,49,2) exec(1,57,3) exec(0,0,1) exec(0,182,4)
-Optimization: 288
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,187,6) exec(2,102,3) exec(2,103,7) exec(1,177,8) exec(1,187,9)
+Optimization: 621
 Answer: 60
-exec(1,41,2) exec(1,57,3) exec(0,0,1) exec(0,182,4)
-Optimization: 280
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,186,6) exec(2,102,3) exec(2,103,7) exec(1,177,8) exec(1,186,9)
+Optimization: 620
 Answer: 61
-exec(1,24,2) exec(1,57,3) exec(0,0,1) exec(0,182,4)
-Optimization: 263
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,185,6) exec(2,102,3) exec(2,103,7) exec(1,177,8) exec(1,185,9)
+Optimization: 619
 Answer: 62
-exec(1,12,2) exec(1,57,3) exec(0,0,1) exec(0,182,4)
-Optimization: 251
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,184,6) exec(2,102,3) exec(2,103,7) exec(1,177,8) exec(1,184,9)
+Optimization: 618
 Answer: 63
-exec(1,11,2) exec(1,57,3) exec(0,0,1) exec(0,182,4)
-Optimization: 250
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,183,6) exec(2,102,3) exec(2,103,7) exec(1,177,8) exec(1,183,9)
+Optimization: 617
 Answer: 64
-exec(1,9,2) exec(1,54,3) exec(0,0,1) exec(0,182,4)
-Optimization: 245
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,182,6) exec(2,102,3) exec(2,103,7) exec(1,177,8) exec(1,182,9)
+Optimization: 616
 Answer: 65
-exec(1,8,2) exec(1,54,3) exec(0,0,1) exec(0,182,4)
-Optimization: 244
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,181,6) exec(2,102,3) exec(2,103,7) exec(1,177,8) exec(1,181,9)
+Optimization: 615
 Answer: 66
-exec(1,20,2) exec(1,38,3) exec(0,0,1) exec(0,182,4)
-Optimization: 240
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,180,6) exec(2,102,3) exec(2,103,7) exec(1,177,8) exec(1,180,9)
+Optimization: 614
 Answer: 67
-exec(1,20,2) exec(1,34,3) exec(0,0,1) exec(0,182,4)
-Optimization: 236
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,179,6) exec(2,102,3) exec(2,103,7) exec(1,177,8) exec(1,179,9)
+Optimization: 613
 Answer: 68
-exec(1,20,2) exec(1,29,3) exec(0,0,1) exec(0,182,4)
-Optimization: 231
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,102,5) exec(0,200,6) exec(2,102,3) exec(2,103,7) exec(1,177,8) exec(1,200,9)
+Optimization: 610
 Answer: 69
-exec(1,20,2) exec(1,28,3) exec(0,0,1) exec(0,182,4)
-Optimization: 230
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,102,5) exec(0,199,6) exec(2,102,3) exec(2,103,7) exec(1,177,8) exec(1,199,9)
+Optimization: 609
 Answer: 70
-exec(1,16,2) exec(1,31,3) exec(0,0,1) exec(0,182,4)
-Optimization: 229
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,102,5) exec(0,198,6) exec(2,102,3) exec(2,103,7) exec(1,177,8) exec(1,198,9)
+Optimization: 608
 Answer: 71
-exec(1,16,2) exec(1,27,3) exec(0,0,1) exec(0,182,4)
-Optimization: 225
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,102,5) exec(0,197,6) exec(2,102,3) exec(2,103,7) exec(1,177,8) exec(1,197,9)
+Optimization: 607
 Answer: 72
-exec(1,16,2) exec(1,24,3) exec(0,0,1) exec(0,182,4)
-Optimization: 222
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,102,5) exec(0,196,6) exec(2,102,3) exec(2,103,7) exec(1,177,8) exec(1,196,9)
+Optimization: 606
 Answer: 73
-exec(1,15,2) exec(1,23,3) exec(0,0,1) exec(0,182,4)
-Optimization: 220
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,102,5) exec(0,195,6) exec(2,102,3) exec(2,103,7) exec(1,177,8) exec(1,195,9)
+Optimization: 605
 Answer: 74
-exec(1,10,2) exec(1,21,3) exec(0,0,1) exec(0,182,4)
-Optimization: 213
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,102,5) exec(0,194,6) exec(2,102,3) exec(2,103,7) exec(1,177,8) exec(1,194,9)
+Optimization: 604
 Answer: 75
-exec(1,10,2) exec(1,18,3) exec(0,0,1) exec(0,182,4)
-Optimization: 210
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,102,5) exec(0,193,6) exec(2,102,3) exec(2,103,7) exec(1,177,8) exec(1,193,9)
+Optimization: 603
 Answer: 76
-exec(1,9,2) exec(1,17,3) exec(0,0,1) exec(0,182,4)
-Optimization: 208
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,102,5) exec(0,192,6) exec(2,102,3) exec(2,103,7) exec(1,177,8) exec(1,192,9)
+Optimization: 602
 Answer: 77
-exec(1,8,2) exec(1,17,3) exec(0,0,1) exec(0,182,4)
-Optimization: 207
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,102,5) exec(0,191,6) exec(2,102,3) exec(2,103,7) exec(1,177,8) exec(1,191,9)
+Optimization: 601
 Answer: 78
-exec(1,8,2) exec(1,16,3) exec(0,0,1) exec(0,182,4)
-Optimization: 206
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,102,5) exec(0,190,6) exec(2,102,3) exec(2,103,7) exec(1,177,8) exec(1,190,9)
+Optimization: 600
 Answer: 79
-exec(1,8,2) exec(1,16,3) exec(0,0,1) exec(0,180,4)
-Optimization: 204
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,102,5) exec(0,189,6) exec(2,102,3) exec(2,103,7) exec(1,177,8) exec(1,189,9)
+Optimization: 599
 Answer: 80
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,161,4)
-Optimization: 203
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,102,5) exec(0,188,6) exec(2,102,3) exec(2,103,7) exec(1,177,8) exec(1,188,9)
+Optimization: 598
 Answer: 81
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,160,4)
-Optimization: 202
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,102,5) exec(0,187,6) exec(2,102,3) exec(2,103,7) exec(1,177,8) exec(1,187,9)
+Optimization: 597
 Answer: 82
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,159,4)
-Optimization: 201
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,102,5) exec(0,186,6) exec(2,102,3) exec(2,103,7) exec(1,177,8) exec(1,186,9)
+Optimization: 596
 Answer: 83
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,158,4)
-Optimization: 200
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,102,5) exec(0,185,6) exec(2,102,3) exec(2,103,7) exec(1,177,8) exec(1,185,9)
+Optimization: 595
 Answer: 84
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,157,4)
-Optimization: 199
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,102,5) exec(0,184,6) exec(2,102,3) exec(2,103,7) exec(1,177,8) exec(1,184,9)
+Optimization: 594
 Answer: 85
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,156,4)
-Optimization: 198
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,102,5) exec(0,183,6) exec(2,102,3) exec(2,103,7) exec(1,177,8) exec(1,183,9)
+Optimization: 593
 Answer: 86
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,155,4)
-Optimization: 197
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,102,5) exec(0,182,6) exec(2,102,3) exec(2,103,7) exec(1,177,8) exec(1,182,9)
+Optimization: 592
 Answer: 87
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,154,4)
-Optimization: 196
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,102,5) exec(0,181,6) exec(2,102,3) exec(2,103,7) exec(1,177,8) exec(1,181,9)
+Optimization: 591
 Answer: 88
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,153,4)
-Optimization: 195
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,102,5) exec(0,180,6) exec(2,102,3) exec(2,103,7) exec(1,177,8) exec(1,180,9)
+Optimization: 590
 Answer: 89
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,152,4)
-Optimization: 194
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,102,5) exec(0,179,6) exec(2,102,3) exec(2,103,7) exec(1,177,8) exec(1,179,9)
+Optimization: 589
 Answer: 90
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,151,4)
-Optimization: 193
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,24,3) exec(2,103,7) exec(1,177,8) exec(1,196,9)
+Optimization: 588
 Answer: 91
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,150,4)
-Optimization: 192
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,24,3) exec(2,103,7) exec(1,177,8) exec(1,195,9)
+Optimization: 587
 Answer: 92
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,149,4)
-Optimization: 191
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,24,3) exec(2,103,7) exec(1,177,8) exec(1,194,9)
+Optimization: 586
 Answer: 93
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,148,4)
-Optimization: 190
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,24,3) exec(2,103,7) exec(1,177,8) exec(1,193,9)
+Optimization: 585
 Answer: 94
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,147,4)
-Optimization: 189
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,24,3) exec(2,103,7) exec(1,177,8) exec(1,192,9)
+Optimization: 584
 Answer: 95
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,146,4)
-Optimization: 188
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,24,3) exec(2,103,7) exec(1,177,8) exec(1,191,9)
+Optimization: 583
 Answer: 96
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,145,4)
-Optimization: 187
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,24,3) exec(2,103,7) exec(1,177,8) exec(1,190,9)
+Optimization: 582
 Answer: 97
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,144,4)
-Optimization: 186
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,24,3) exec(2,103,7) exec(1,177,8) exec(1,189,9)
+Optimization: 581
 Answer: 98
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,143,4)
-Optimization: 185
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,24,3) exec(2,103,7) exec(1,177,8) exec(1,188,9)
+Optimization: 580
 Answer: 99
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,142,4)
-Optimization: 184
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,24,3) exec(2,103,7) exec(1,177,8) exec(1,187,9)
+Optimization: 579
 Answer: 100
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,141,4)
-Optimization: 183
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,24,3) exec(2,103,7) exec(1,177,8) exec(1,186,9)
+Optimization: 578
 Answer: 101
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,140,4)
-Optimization: 182
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,24,3) exec(2,103,7) exec(1,177,8) exec(1,185,9)
+Optimization: 577
 Answer: 102
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,139,4)
-Optimization: 181
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,24,3) exec(2,103,7) exec(1,177,8) exec(1,184,9)
+Optimization: 576
 Answer: 103
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,138,4)
-Optimization: 180
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,24,3) exec(2,103,7) exec(1,177,8) exec(1,183,9)
+Optimization: 575
 Answer: 104
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,137,4)
-Optimization: 179
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,24,3) exec(2,103,7) exec(1,177,8) exec(1,182,9)
+Optimization: 574
 Answer: 105
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,136,4)
-Optimization: 178
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,24,3) exec(2,103,7) exec(1,177,8) exec(1,181,9)
+Optimization: 573
 Answer: 106
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,135,4)
-Optimization: 177
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,24,3) exec(2,103,7) exec(1,177,8) exec(1,180,9)
+Optimization: 572
 Answer: 107
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,134,4)
-Optimization: 176
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,24,3) exec(2,103,7) exec(1,177,8) exec(1,179,9)
+Optimization: 571
 Answer: 108
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,133,4)
-Optimization: 175
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,181,6) exec(2,24,3) exec(2,103,7) exec(1,177,8) exec(1,181,9)
+Optimization: 513
 Answer: 109
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,132,4)
-Optimization: 174
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,179,6) exec(2,24,3) exec(2,103,7) exec(1,177,8) exec(1,179,9)
+Optimization: 511
 Answer: 110
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,131,4)
-Optimization: 173
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,103,5) exec(0,181,6) exec(2,21,3) exec(2,103,7) exec(1,177,8) exec(1,181,9)
+Optimization: 510
 Answer: 111
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,130,4)
-Optimization: 172
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,103,5) exec(0,181,6) exec(2,20,3) exec(2,103,7) exec(1,177,8) exec(1,181,9)
+Optimization: 509
 Answer: 112
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,129,4)
-Optimization: 171
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,103,5) exec(0,181,6) exec(2,19,3) exec(2,103,7) exec(1,177,8) exec(1,181,9)
+Optimization: 508
 Answer: 113
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,128,4)
-Optimization: 170
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,103,5) exec(0,180,6) exec(2,19,3) exec(2,103,7) exec(1,177,8) exec(1,180,9)
+Optimization: 507
 Answer: 114
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,127,4)
-Optimization: 169
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,103,5) exec(0,180,6) exec(2,18,3) exec(2,103,7) exec(1,177,8) exec(1,180,9)
+Optimization: 506
 Answer: 115
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,126,4)
-Optimization: 168
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,103,5) exec(0,180,6) exec(2,17,3) exec(2,103,7) exec(1,177,8) exec(1,180,9)
+Optimization: 505
 Answer: 116
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,125,4)
-Optimization: 167
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,103,5) exec(0,180,6) exec(2,16,3) exec(2,103,7) exec(1,177,8) exec(1,180,9)
+Optimization: 504
 Answer: 117
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,124,4)
-Optimization: 166
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,103,5) exec(0,180,6) exec(2,15,3) exec(2,103,7) exec(1,177,8) exec(1,180,9)
+Optimization: 503
 Answer: 118
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,123,4)
-Optimization: 165
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,103,5) exec(0,180,6) exec(2,14,3) exec(2,103,7) exec(1,177,8) exec(1,180,9)
+Optimization: 502
 Answer: 119
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,122,4)
-Optimization: 164
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,103,5) exec(0,180,6) exec(2,13,3) exec(2,103,7) exec(1,177,8) exec(1,180,9)
+Optimization: 501
 Answer: 120
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,121,4)
-Optimization: 163
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,103,5) exec(0,180,6) exec(2,12,3) exec(2,103,7) exec(1,177,8) exec(1,180,9)
+Optimization: 500
 Answer: 121
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,120,4)
-Optimization: 162
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,103,5) exec(0,180,6) exec(2,11,3) exec(2,103,7) exec(1,177,8) exec(1,180,9)
+Optimization: 499
 Answer: 122
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,119,4)
-Optimization: 161
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,103,5) exec(0,180,6) exec(2,10,3) exec(2,103,7) exec(1,177,8) exec(1,180,9)
+Optimization: 498
 Answer: 123
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,118,4)
-Optimization: 160
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,103,5) exec(0,180,6) exec(2,9,3) exec(2,103,7) exec(1,177,8) exec(1,180,9)
+Optimization: 497
 Answer: 124
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,117,4)
-Optimization: 159
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,103,5) exec(0,180,6) exec(2,8,3) exec(2,103,7) exec(1,177,8) exec(1,180,9)
+Optimization: 496
 Answer: 125
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,116,4)
-Optimization: 158
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,103,5) exec(0,180,6) exec(2,7,3) exec(2,103,7) exec(1,177,8) exec(1,180,9)
+Optimization: 495
 Answer: 126
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,115,4)
-Optimization: 157
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,103,5) exec(0,179,6) exec(2,7,3) exec(2,103,7) exec(1,177,8) exec(1,179,9)
+Optimization: 494
 Answer: 127
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,114,4)
-Optimization: 156
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,179,6) exec(2,24,3) exec(2,85,7) exec(1,177,8) exec(1,179,9)
+Optimization: 493
 Answer: 128
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,113,4)
-Optimization: 155
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,60,6) exec(2,7,3) exec(2,9,7) exec(1,177,8) exec(1,184,9)
+Optimization: 489
 Answer: 129
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,112,4)
-Optimization: 154
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,184,6) exec(2,7,3) exec(2,9,7) exec(1,177,8) exec(1,184,9)
+Optimization: 429
 Answer: 130
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,111,4)
-Optimization: 153
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,180,6) exec(2,7,3) exec(2,9,7) exec(1,177,8) exec(1,180,9)
+Optimization: 425
 Answer: 131
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,110,4)
-Optimization: 152
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,180,6) exec(2,7,3) exec(2,8,7) exec(1,177,8) exec(1,180,9)
+Optimization: 424
 Answer: 132
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,109,4)
-Optimization: 151
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,180,6) exec(2,11,3) exec(2,24,7) exec(1,177,8) exec(1,180,9)
+Optimization: 420
 Answer: 133
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,108,4)
-Optimization: 150
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,180,6) exec(2,8,3) exec(2,24,7) exec(1,177,8) exec(1,180,9)
+Optimization: 417
 Answer: 134
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,107,4)
-Optimization: 149
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,180,6) exec(2,7,3) exec(2,24,7) exec(1,177,8) exec(1,180,9)
+Optimization: 416
 Answer: 135
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,106,4)
-Optimization: 148
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,179,6) exec(2,7,3) exec(2,24,7) exec(1,177,8) exec(1,179,9)
+Optimization: 415
 Answer: 136
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,105,4)
-Optimization: 147
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,177,6) exec(2,8,3) exec(2,24,7) exec(1,37,8) exec(1,139,9)
+Optimization: 413
 Answer: 137
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,104,4)
-Optimization: 146
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,177,6) exec(2,9,3) exec(2,24,7) exec(1,33,8) exec(1,139,9)
+Optimization: 410
 Answer: 138
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,103,4)
-Optimization: 145
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,177,6) exec(2,8,3) exec(2,24,7) exec(1,32,8) exec(1,139,9)
+Optimization: 408
 Answer: 139
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,102,4)
-Optimization: 144
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,177,6) exec(2,7,3) exec(2,24,7) exec(1,32,8) exec(1,139,9)
+Optimization: 407
 Answer: 140
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,101,4)
-Optimization: 143
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,177,6) exec(2,7,3) exec(2,24,7) exec(1,31,8) exec(1,139,9)
+Optimization: 406
 Answer: 141
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,100,4)
-Optimization: 142
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,177,6) exec(2,7,3) exec(2,24,7) exec(1,30,8) exec(1,139,9)
+Optimization: 405
 Answer: 142
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,99,4)
-Optimization: 141
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,177,6) exec(2,8,3) exec(2,24,7) exec(1,27,8) exec(1,139,9)
+Optimization: 403
 Answer: 143
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,98,4)
-Optimization: 140
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,177,6) exec(2,7,3) exec(2,24,7) exec(1,27,8) exec(1,139,9)
+Optimization: 402
 Answer: 144
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,97,4)
-Optimization: 139
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,177,6) exec(2,7,3) exec(2,24,7) exec(1,26,8) exec(1,139,9)
+Optimization: 401
 Answer: 145
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,96,4)
-Optimization: 138
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,177,6) exec(2,7,3) exec(2,24,7) exec(1,25,8) exec(1,139,9)
+Optimization: 400
 Answer: 146
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,95,4)
-Optimization: 137
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,186,6) exec(2,16,3) exec(2,29,7) exec(1,104,8) exec(1,186,9)
+Optimization: 387
 Answer: 147
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,94,4)
-Optimization: 136
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,186,6) exec(2,16,3) exec(2,29,7) exec(1,103,8) exec(1,186,9)
+Optimization: 386
 Answer: 148
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,93,4)
-Optimization: 135
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,186,6) exec(2,16,3) exec(2,17,7) exec(1,104,8) exec(1,186,9)
+Optimization: 375
 Answer: 149
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,92,4)
-Optimization: 134
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,186,6) exec(2,20,3) exec(2,24,7) exec(1,104,8) exec(1,186,9)
+Optimization: 362
 Answer: 150
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,91,4)
-Optimization: 133
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,186,6) exec(2,19,3) exec(2,24,7) exec(1,104,8) exec(1,186,9)
+Optimization: 361
 Answer: 151
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,90,4)
-Optimization: 132
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,186,6) exec(2,14,3) exec(2,24,7) exec(1,104,8) exec(1,186,9)
+Optimization: 356
 Answer: 152
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,89,4)
-Optimization: 131
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,186,6) exec(2,11,3) exec(2,24,7) exec(1,104,8) exec(1,186,9)
+Optimization: 353
 Answer: 153
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,88,4)
-Optimization: 130
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,186,6) exec(2,8,3) exec(2,24,7) exec(1,104,8) exec(1,186,9)
+Optimization: 350
 Answer: 154
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,87,4)
-Optimization: 129
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,186,6) exec(2,7,3) exec(2,24,7) exec(1,104,8) exec(1,186,9)
+Optimization: 349
 Answer: 155
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,86,4)
-Optimization: 128
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,186,6) exec(2,7,3) exec(2,24,7) exec(1,103,8) exec(1,186,9)
+Optimization: 348
 Answer: 156
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,85,4)
-Optimization: 127
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,186,6) exec(2,19,3) exec(2,20,7) exec(1,35,8) exec(1,186,9)
+Optimization: 312
 Answer: 157
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,84,4)
-Optimization: 126
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,186,6) exec(2,20,3) exec(2,24,7) exec(1,35,8) exec(1,186,9)
+Optimization: 293
 Answer: 158
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,83,4)
-Optimization: 125
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,186,6) exec(2,14,3) exec(2,24,7) exec(1,35,8) exec(1,186,9)
+Optimization: 287
 Answer: 159
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,82,4)
-Optimization: 124
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,186,6) exec(2,9,3) exec(2,24,7) exec(1,35,8) exec(1,186,9)
+Optimization: 282
 Answer: 160
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,81,4)
-Optimization: 123
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,186,6) exec(2,8,3) exec(2,24,7) exec(1,35,8) exec(1,186,9)
+Optimization: 281
 Answer: 161
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,80,4)
-Optimization: 122
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,186,6) exec(2,7,3) exec(2,24,7) exec(1,35,8) exec(1,186,9)
+Optimization: 280
 Answer: 162
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,79,4)
-Optimization: 121
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,186,6) exec(2,12,3) exec(2,24,7) exec(1,29,8) exec(1,186,9)
+Optimization: 279
 Answer: 163
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,78,4)
-Optimization: 120
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,186,6) exec(2,9,3) exec(2,24,7) exec(1,29,8) exec(1,186,9)
+Optimization: 276
 Answer: 164
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,77,4)
-Optimization: 119
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,186,6) exec(2,8,3) exec(2,24,7) exec(1,29,8) exec(1,186,9)
+Optimization: 275
 Answer: 165
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,76,4)
-Optimization: 118
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,186,6) exec(2,7,3) exec(2,24,7) exec(1,29,8) exec(1,186,9)
+Optimization: 274
 Answer: 166
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,75,4)
-Optimization: 117
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,186,6) exec(2,9,3) exec(2,24,7) exec(1,26,8) exec(1,186,9)
+Optimization: 273
 Answer: 167
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,74,4)
-Optimization: 116
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,186,6) exec(2,8,3) exec(2,24,7) exec(1,26,8) exec(1,186,9)
+Optimization: 272
 Answer: 168
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,73,4)
-Optimization: 115
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,186,6) exec(2,7,3) exec(2,24,7) exec(1,26,8) exec(1,186,9)
+Optimization: 271
 Answer: 169
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,72,4)
-Optimization: 114
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,179,6) exec(2,7,3) exec(2,24,7) exec(1,32,8) exec(1,179,9)
+Optimization: 270
 Answer: 170
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,71,4)
-Optimization: 113
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,185,6) exec(2,7,3) exec(2,24,7) exec(1,25,8) exec(1,185,9)
+Optimization: 269
 Answer: 171
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,70,4)
-Optimization: 112
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,180,6) exec(2,7,3) exec(2,24,7) exec(1,28,8) exec(1,180,9)
+Optimization: 267
 Answer: 172
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,69,4)
-Optimization: 111
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,180,6) exec(2,7,3) exec(2,24,7) exec(1,26,8) exec(1,180,9)
+Optimization: 265
 Answer: 173
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,68,4)
-Optimization: 110
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,180,6) exec(2,7,3) exec(2,24,7) exec(1,25,8) exec(1,180,9)
+Optimization: 264
 Answer: 174
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,67,4)
-Optimization: 109
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,179,6) exec(2,7,3) exec(2,24,7) exec(1,25,8) exec(1,179,9)
+Optimization: 263
 Answer: 175
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,66,4)
-Optimization: 108
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,170,6) exec(2,7,3) exec(2,24,7) exec(1,29,8) exec(1,170,9)
+Optimization: 258
 Answer: 176
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,65,4)
-Optimization: 107
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,170,6) exec(2,7,3) exec(2,24,7) exec(1,28,8) exec(1,170,9)
+Optimization: 257
 Answer: 177
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,64,4)
-Optimization: 106
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,170,6) exec(2,7,3) exec(2,24,7) exec(1,27,8) exec(1,170,9)
+Optimization: 256
 Answer: 178
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,63,4)
-Optimization: 105
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,170,6) exec(2,7,3) exec(2,24,7) exec(1,26,8) exec(1,170,9)
+Optimization: 255
 Answer: 179
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,62,4)
-Optimization: 104
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,151,6) exec(2,7,3) exec(2,10,7) exec(1,34,8) exec(1,151,9)
+Optimization: 254
 Answer: 180
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,61,4)
-Optimization: 103
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,151,6) exec(2,7,3) exec(2,10,7) exec(1,33,8) exec(1,151,9)
+Optimization: 253
 Answer: 181
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,60,4)
-Optimization: 102
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,150,6) exec(2,7,3) exec(2,10,7) exec(1,33,8) exec(1,150,9)
+Optimization: 252
 Answer: 182
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,59,4)
-Optimization: 101
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,149,6) exec(2,7,3) exec(2,10,7) exec(1,33,8) exec(1,149,9)
+Optimization: 251
 Answer: 183
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,58,4)
-Optimization: 100
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,150,6) exec(2,7,3) exec(2,10,7) exec(1,31,8) exec(1,150,9)
+Optimization: 250
 Answer: 184
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,57,4)
-Optimization: 99
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,149,6) exec(2,7,3) exec(2,10,7) exec(1,31,8) exec(1,149,9)
+Optimization: 249
 Answer: 185
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,56,4)
-Optimization: 98
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,150,6) exec(2,7,3) exec(2,10,7) exec(1,29,8) exec(1,150,9)
+Optimization: 248
 Answer: 186
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,55,4)
-Optimization: 97
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,150,6) exec(2,7,3) exec(2,10,7) exec(1,28,8) exec(1,150,9)
+Optimization: 247
 Answer: 187
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,54,4)
-Optimization: 96
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,152,6) exec(2,7,3) exec(2,10,7) exec(1,25,8) exec(1,152,9)
+Optimization: 246
 Answer: 188
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,53,4)
-Optimization: 95
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,151,6) exec(2,7,3) exec(2,10,7) exec(1,25,8) exec(1,151,9)
+Optimization: 245
 Answer: 189
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,52,4)
-Optimization: 94
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,150,6) exec(2,7,3) exec(2,10,7) exec(1,25,8) exec(1,150,9)
+Optimization: 244
 Answer: 190
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,51,4)
-Optimization: 93
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,149,6) exec(2,7,3) exec(2,10,7) exec(1,25,8) exec(1,149,9)
+Optimization: 243
 Answer: 191
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,50,4)
-Optimization: 92
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,152,6) exec(2,10,3) exec(2,24,7) exec(1,28,8) exec(1,152,9)
+Optimization: 242
 Answer: 192
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,49,4)
-Optimization: 91
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,152,6) exec(2,10,3) exec(2,24,7) exec(1,26,8) exec(1,152,9)
+Optimization: 240
 Answer: 193
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,48,4)
-Optimization: 90
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,152,6) exec(2,10,3) exec(2,24,7) exec(1,25,8) exec(1,152,9)
+Optimization: 239
 Answer: 194
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,47,4)
-Optimization: 89
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,151,6) exec(2,10,3) exec(2,24,7) exec(1,25,8) exec(1,151,9)
+Optimization: 238
 Answer: 195
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,46,4)
-Optimization: 88
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,149,6) exec(2,10,3) exec(2,24,7) exec(1,26,8) exec(1,149,9)
+Optimization: 237
 Answer: 196
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,45,4)
-Optimization: 87
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,149,6) exec(2,10,3) exec(2,24,7) exec(1,25,8) exec(1,149,9)
+Optimization: 236
 Answer: 197
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,44,4)
-Optimization: 86
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,112,6) exec(2,9,3) exec(2,10,7) exec(1,37,8) exec(1,112,9)
+Optimization: 220
 Answer: 198
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,43,4)
-Optimization: 85
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,112,6) exec(2,9,3) exec(2,10,7) exec(1,36,8) exec(1,112,9)
+Optimization: 219
 Answer: 199
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,42,4)
-Optimization: 84
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,112,6) exec(2,9,3) exec(2,10,7) exec(1,34,8) exec(1,112,9)
+Optimization: 217
 Answer: 200
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,41,4)
-Optimization: 83
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,112,6) exec(2,9,3) exec(2,10,7) exec(1,33,8) exec(1,112,9)
+Optimization: 216
 Answer: 201
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,40,4)
-Optimization: 82
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,112,6) exec(2,7,3) exec(2,10,7) exec(1,34,8) exec(1,112,9)
+Optimization: 215
 Answer: 202
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,39,4)
-Optimization: 81
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,112,6) exec(2,7,3) exec(2,10,7) exec(1,33,8) exec(1,112,9)
+Optimization: 214
 Answer: 203
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,38,4)
-Optimization: 80
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,112,6) exec(2,7,3) exec(2,24,7) exec(1,41,8) exec(1,112,9)
+Optimization: 212
 Answer: 204
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,37,4)
-Optimization: 79
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,112,6) exec(2,8,3) exec(2,24,7) exec(1,39,8) exec(1,112,9)
+Optimization: 211
 Answer: 205
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,36,4)
-Optimization: 78
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,112,6) exec(2,7,3) exec(2,24,7) exec(1,39,8) exec(1,112,9)
+Optimization: 210
 Answer: 206
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,35,4)
-Optimization: 77
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,112,6) exec(2,7,3) exec(2,24,7) exec(1,37,8) exec(1,112,9)
+Optimization: 208
 Answer: 207
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,34,4)
-Optimization: 76
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,112,6) exec(2,7,3) exec(2,24,7) exec(1,36,8) exec(1,112,9)
+Optimization: 207
 Answer: 208
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,33,4)
-Optimization: 75
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,112,6) exec(2,7,3) exec(2,24,7) exec(1,34,8) exec(1,112,9)
+Optimization: 205
 Answer: 209
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,32,4)
-Optimization: 74
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,112,6) exec(2,7,3) exec(2,24,7) exec(1,33,8) exec(1,112,9)
+Optimization: 204
 Answer: 210
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,31,4)
-Optimization: 73
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,112,6) exec(2,7,3) exec(2,24,7) exec(1,31,8) exec(1,112,9)
+Optimization: 202
 Answer: 211
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,30,4)
-Optimization: 72
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,112,6) exec(2,7,3) exec(2,24,7) exec(1,29,8) exec(1,112,9)
+Optimization: 200
 Answer: 212
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,29,4)
-Optimization: 71
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,112,6) exec(2,7,3) exec(2,24,7) exec(1,28,8) exec(1,112,9)
+Optimization: 199
 Answer: 213
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,28,4)
-Optimization: 70
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,112,6) exec(2,7,3) exec(2,24,7) exec(1,26,8) exec(1,112,9)
+Optimization: 197
 Answer: 214
-exec(1,17,2) exec(1,25,3) exec(0,0,1) exec(0,27,4)
-Optimization: 69
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,112,6) exec(2,7,3) exec(2,24,7) exec(1,25,8) exec(1,112,9)
+Optimization: 196
 Answer: 215
-exec(1,16,2) exec(1,25,3) exec(0,0,1) exec(0,27,4)
-Optimization: 68
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,67,6) exec(2,9,3) exec(2,10,7) exec(1,55,8) exec(1,67,9)
+Optimization: 193
 Answer: 216
-exec(1,8,2) exec(1,25,3) exec(0,0,1) exec(0,34,4)
-Optimization: 67
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,67,6) exec(2,9,3) exec(2,10,7) exec(1,54,8) exec(1,67,9)
+Optimization: 192
 Answer: 217
-exec(1,8,2) exec(1,25,3) exec(0,0,1) exec(0,33,4)
-Optimization: 66
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,67,6) exec(2,9,3) exec(2,10,7) exec(1,53,8) exec(1,67,9)
+Optimization: 191
 Answer: 218
-exec(1,8,2) exec(1,25,3) exec(0,0,1) exec(0,32,4)
-Optimization: 65
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,67,6) exec(2,9,3) exec(2,10,7) exec(1,51,8) exec(1,67,9)
+Optimization: 189
 Answer: 219
-exec(1,8,2) exec(1,25,3) exec(0,0,1) exec(0,31,4)
-Optimization: 64
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,67,6) exec(2,9,3) exec(2,10,7) exec(1,50,8) exec(1,67,9)
+Optimization: 188
 Answer: 220
-exec(1,8,2) exec(1,25,3) exec(0,0,1) exec(0,30,4)
-Optimization: 63
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,67,6) exec(2,9,3) exec(2,10,7) exec(1,49,8) exec(1,67,9)
+Optimization: 187
 Answer: 221
-exec(1,8,2) exec(1,25,3) exec(0,0,1) exec(0,29,4)
-Optimization: 62
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,67,6) exec(2,9,3) exec(2,10,7) exec(1,48,8) exec(1,67,9)
+Optimization: 186
 Answer: 222
-exec(1,8,2) exec(1,25,3) exec(0,0,1) exec(0,28,4)
-Optimization: 61
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,67,6) exec(2,9,3) exec(2,10,7) exec(1,44,8) exec(1,67,9)
+Optimization: 182
 Answer: 223
-exec(1,8,2) exec(1,25,3) exec(0,0,1) exec(0,27,4)
-Optimization: 60
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,67,6) exec(2,9,3) exec(2,10,7) exec(1,41,8) exec(1,67,9)
+Optimization: 179
 Answer: 224
-exec(1,9,2) exec(1,19,3) exec(0,0,1) exec(0,25,4)
-Optimization: 53
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,67,6) exec(2,9,3) exec(2,10,7) exec(1,37,8) exec(1,67,9)
+Optimization: 175
 Answer: 225
-exec(1,9,2) exec(1,19,3) exec(0,0,1) exec(0,22,4)
-Optimization: 50
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,67,6) exec(2,9,3) exec(2,10,7) exec(1,36,8) exec(1,67,9)
+Optimization: 174
 Answer: 226
-exec(1,9,2) exec(1,19,3) exec(0,0,1) exec(0,21,4)
-Optimization: 49
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,67,6) exec(2,9,3) exec(2,10,7) exec(1,34,8) exec(1,67,9)
+Optimization: 172
 Answer: 227
-exec(1,8,2) exec(1,19,3) exec(0,0,1) exec(0,21,4)
-Optimization: 48
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,67,6) exec(2,9,3) exec(2,10,7) exec(1,33,8) exec(1,67,9)
+Optimization: 171
 Answer: 228
-exec(1,9,2) exec(1,17,3) exec(0,0,1) exec(0,20,4)
-Optimization: 46
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,67,6) exec(2,9,3) exec(2,10,7) exec(1,31,8) exec(1,67,9)
+Optimization: 169
 Answer: 229
-exec(1,9,2) exec(1,17,3) exec(0,0,1) exec(0,19,4)
-Optimization: 45
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,67,6) exec(2,9,3) exec(2,10,7) exec(1,29,8) exec(1,67,9)
+Optimization: 167
 Answer: 230
-exec(1,8,2) exec(1,16,3) exec(0,0,1) exec(0,18,4)
-Optimization: 42
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,42,6) exec(2,9,3) exec(2,10,7) exec(1,37,8) exec(1,42,9)
+Optimization: 150
+Answer: 231
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,42,6) exec(2,9,3) exec(2,10,7) exec(1,36,8) exec(1,42,9)
+Optimization: 149
+Answer: 232
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,42,6) exec(2,9,3) exec(2,10,7) exec(1,34,8) exec(1,42,9)
+Optimization: 147
+Answer: 233
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,42,6) exec(2,9,3) exec(2,10,7) exec(1,33,8) exec(1,42,9)
+Optimization: 146
+Answer: 234
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,42,6) exec(2,9,3) exec(2,10,7) exec(1,31,8) exec(1,42,9)
+Optimization: 144
+Answer: 235
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,42,6) exec(2,9,3) exec(2,10,7) exec(1,29,8) exec(1,42,9)
+Optimization: 142
+Answer: 236
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,36,6) exec(2,9,3) exec(2,10,7) exec(1,34,8) exec(1,36,9)
+Optimization: 141
+Answer: 237
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,35,6) exec(2,9,3) exec(2,10,7) exec(1,33,8) exec(1,35,9)
+Optimization: 139
+Answer: 238
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,35,6) exec(2,9,3) exec(2,10,7) exec(1,29,8) exec(1,35,9)
+Optimization: 135
+Answer: 239
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,32,6) exec(2,9,3) exec(2,10,7) exec(1,29,8) exec(1,32,9)
+Optimization: 132
+Answer: 240
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,29,6) exec(2,9,3) exec(2,10,7) exec(1,29,8) exec(1,31,9)
+Optimization: 131
+Answer: 241
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,28,6) exec(2,9,3) exec(2,10,7) exec(1,28,8) exec(1,31,9)
+Optimization: 130
+Answer: 242
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,30,6) exec(2,9,3) exec(2,10,7) exec(1,28,8) exec(1,30,9)
+Optimization: 129
+Answer: 243
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,35,6) exec(2,10,3) exec(2,24,7) exec(1,29,8) exec(1,35,9)
+Optimization: 126
+Answer: 244
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,35,6) exec(2,9,3) exec(2,24,7) exec(1,29,8) exec(1,35,9)
+Optimization: 125
+Answer: 245
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,28,6) exec(2,7,3) exec(2,10,7) exec(1,26,8) exec(1,28,9)
+Optimization: 123
+Answer: 246
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,28,6) exec(2,10,3) exec(2,24,7) exec(1,26,8) exec(1,28,9)
+Optimization: 116
+Answer: 247
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,28,6) exec(2,9,3) exec(2,24,7) exec(1,26,8) exec(1,28,9)
+Optimization: 115
+Answer: 248
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,28,6) exec(2,7,3) exec(2,24,7) exec(1,26,8) exec(1,28,9)
+Optimization: 113
+Answer: 249
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,25,6) exec(2,7,3) exec(2,24,7) exec(1,25,8) exec(1,28,9)
+Optimization: 112
+Answer: 250
+exec(0,1,1) exec(0,21,4) exec(1,6,2) exec(1,24,5) exec(0,25,6) exec(2,7,3) exec(2,24,7) exec(1,25,8) exec(1,27,9)
+Optimization: 111
+Answer: 251
+exec(0,1,1) exec(0,7,4) exec(1,6,2) exec(1,10,5) exec(0,26,6) exec(2,9,3) exec(2,10,7) exec(1,18,8) exec(1,24,9)
+Optimization: 101
+Answer: 252
+exec(0,1,1) exec(0,7,4) exec(1,6,2) exec(1,10,5) exec(0,24,6) exec(2,9,3) exec(2,10,7) exec(1,18,8) exec(1,24,9)
+Optimization: 75
+Answer: 253
+exec(0,1,1) exec(0,6,4) exec(1,6,2) exec(1,10,5) exec(0,24,6) exec(2,9,3) exec(2,10,7) exec(1,18,8) exec(1,24,9)
+Optimization: 74
+Answer: 254
+exec(0,1,1) exec(0,7,4) exec(1,6,2) exec(1,10,5) exec(0,18,6) exec(2,9,3) exec(2,10,7) exec(1,18,8) exec(1,21,9)
+Optimization: 72
+Answer: 255
+exec(0,1,1) exec(0,6,4) exec(1,6,2) exec(1,10,5) exec(0,21,6) exec(2,9,3) exec(2,10,7) exec(1,18,8) exec(1,21,9)
+Optimization: 71
+Answer: 256
+exec(0,1,1) exec(0,7,4) exec(1,6,2) exec(1,10,5) exec(0,24,6) exec(2,9,3) exec(2,10,7) exec(1,13,8) exec(1,24,9)
+Optimization: 70
+Answer: 257
+exec(0,1,1) exec(0,6,4) exec(1,6,2) exec(1,10,5) exec(0,24,6) exec(2,9,3) exec(2,10,7) exec(1,13,8) exec(1,24,9)
+Optimization: 69
+Answer: 258
+exec(0,1,1) exec(0,7,4) exec(1,6,2) exec(1,10,5) exec(0,24,6) exec(2,9,3) exec(2,10,7) exec(1,11,8) exec(1,24,9)
+Optimization: 68
+Answer: 259
+exec(0,1,1) exec(0,6,4) exec(1,6,2) exec(1,10,5) exec(0,24,6) exec(2,9,3) exec(2,10,7) exec(1,11,8) exec(1,24,9)
+Optimization: 67
+Answer: 260
+exec(0,1,1) exec(0,7,4) exec(1,6,2) exec(1,10,5) exec(0,18,6) exec(2,9,3) exec(2,10,7) exec(1,15,8) exec(1,18,9)
+Optimization: 66
+Answer: 261
+exec(0,1,1) exec(0,7,4) exec(1,6,2) exec(1,10,5) exec(0,18,6) exec(2,9,3) exec(2,10,7) exec(1,12,8) exec(1,18,9)
+Optimization: 63
+Answer: 262
+exec(0,1,1) exec(0,7,4) exec(1,6,2) exec(1,10,5) exec(0,11,6) exec(2,9,3) exec(2,10,7) exec(1,11,8) exec(1,18,9)
+Optimization: 62
+Answer: 263
+exec(0,1,1) exec(0,7,4) exec(1,6,2) exec(1,10,5) exec(0,13,6) exec(2,9,3) exec(2,10,7) exec(1,11,8) exec(1,13,9)
+Optimization: 57
+Answer: 264
+exec(0,1,1) exec(0,6,4) exec(1,6,2) exec(1,10,5) exec(0,13,6) exec(2,9,3) exec(2,10,7) exec(1,11,8) exec(1,13,9)
+Optimization: 56
+Answer: 265
+exec(0,1,1) exec(0,7,4) exec(1,6,2) exec(1,10,5) exec(0,11,6) exec(2,7,3) exec(2,10,7) exec(1,11,8) exec(1,13,9)
+Optimization: 55
+Answer: 266
+exec(0,1,1) exec(0,6,4) exec(1,6,2) exec(1,10,5) exec(0,11,6) exec(2,7,3) exec(2,10,7) exec(1,11,8) exec(1,13,9)
+Optimization: 54
+Answer: 267
+exec(0,0,1) exec(0,7,4) exec(1,5,2) exec(1,10,5) exec(0,11,6) exec(2,7,3) exec(2,10,7) exec(1,11,8) exec(1,13,9)
+Optimization: 53
+Answer: 268
+exec(0,0,1) exec(0,7,4) exec(1,5,2) exec(1,10,5) exec(0,13,6) exec(2,6,3) exec(2,10,7) exec(1,11,8) exec(1,13,9)
+Optimization: 52
+Answer: 269
+exec(0,0,1) exec(0,5,4) exec(1,5,2) exec(1,10,5) exec(0,14,6) exec(2,6,3) exec(2,10,7) exec(1,11,8) exec(1,14,9)
+Optimization: 51
+Answer: 270
+exec(0,0,1) exec(0,5,4) exec(1,5,2) exec(1,10,5) exec(0,13,6) exec(2,6,3) exec(2,10,7) exec(1,11,8) exec(1,13,9)
+Optimization: 50
+Answer: 271
+exec(0,0,1) exec(0,5,4) exec(1,5,2) exec(1,9,5) exec(0,10,6) exec(2,6,3) exec(2,9,7) exec(1,10,8) exec(1,14,9)
+Optimization: 49
+Answer: 272
+exec(0,0,1) exec(0,6,4) exec(1,5,2) exec(1,9,5) exec(0,10,6) exec(2,6,3) exec(2,9,7) exec(1,10,8) exec(1,12,9)
+Optimization: 48
+Answer: 273
+exec(0,0,1) exec(0,5,4) exec(1,5,2) exec(1,9,5) exec(0,10,6) exec(2,6,3) exec(2,9,7) exec(1,10,8) exec(1,12,9)
+Optimization: 47
+Answer: 274
+exec(0,0,1) exec(0,5,4) exec(1,5,2) exec(1,8,5) exec(0,9,6) exec(2,6,3) exec(2,8,7) exec(1,9,8) exec(1,13,9)
+Optimization: 46
+Answer: 275
+exec(0,0,1) exec(0,5,4) exec(1,5,2) exec(1,8,5) exec(0,9,6) exec(2,6,3) exec(2,8,7) exec(1,9,8) exec(1,12,9)
+Optimization: 45
+Answer: 276
+exec(0,0,1) exec(0,5,4) exec(1,5,2) exec(1,8,5) exec(0,9,6) exec(2,6,3) exec(2,8,7) exec(1,9,8) exec(1,11,9)
+Optimization: 44
 OPTIMUM FOUND
 
-Models       : 230   
+Models       : 276   
   Optimum    : yes
-Optimization : 42
+Optimization : 44
 Calls        : 1
-Time         : 0.296s (Solving: 0.04s 1st Model: 0.00s Unsat: 0.00s)
-CPU Time     : 0.280s
+Time         : 1.854s (Solving: 0.55s 1st Model: 0.01s Unsat: 0.02s)
+CPU Time     : 1.830s

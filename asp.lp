@@ -29,6 +29,6 @@ subjob(4, 1, 2, 2).
 
 % todo: optimizer ...
 % optimize sum of starttimes
-#minimize { T, L : exec(_, T, J), subjob(J, L, _, _), time(T)}.
+#minimize { T : exec(_, T, J), time(T)}.
 
 #show exec/3.

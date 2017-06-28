@@ -116,7 +116,7 @@ def main():
 
 	# call our algorithm
 	# print jobs
-	solution = algorithms.asp(machine_count, jobs)
+	solution = algorithms.evol(machine_count, jobs)
 
 	# plot the solution
 	if isMatplotlibInstalled:

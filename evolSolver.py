@@ -16,26 +16,35 @@ import random as rand
 
 # hyper-parameters
 POPULATION_SIZE = 10
-EPOCHS = 1000
+EPOCHS = 20
 MaximumTime = 100		# will be later replaced by a better approximation of the max length
 JobDict = {}			# holds the dicionary {job1: [subjob1, subjob2, ..], job2: [..]}
 
 def solve(machine_count, jobs):
 	population = init(machine_count, jobs, POPULATION_SIZE)			# list of solutions
-	print population[0]
-	print get_moving_range(population[0], 6)
-	# evaluation = eval_all(population)
+	evaluation = eval_all(population)
 
-	# time = 0
-	# while time < EPOCHS:
-	# 	time += 1
-	# 	(mum, dad) = selectParents(evaluation, population)
-	# 	offspring = recombine(mum, dad)
-	# 	offspring += mutate(mum, dad)
-	# 	evaluation = eval_all(offspring)
-	# 	population = select_population(evaluation, offspring)
+	time = 0
+	while time < EPOCHS:
+		print "Epoch: " + str(time)
+		time += 1
+		(mum, dad) = selectParents(evaluation, population)
 
-	# return population
+		# offspring = recombine(mum, dad)
+		offspring = []
+		for i in range(POPULATION_SIZE):		# generate twice as meny solutions as needed for a population
+			offspring.append(mutate(dad))
+			offspring.append(mutate(mum))
+
+		evaluation = eval_all(offspring)
+		population = select_population(evaluation, offspring)
+
+
+	evaluation = eval_all(population)
+	bestSolutionIdx = evaluation.index(min(evaluation))
+	bestSolution = population[bestSolutionIdx]
+
+	return out(bestSolution)
 
 
 
@@ -69,85 +78,121 @@ def init(machine_count, jobs, population_size):
 	solutions = []
 	solutions.append(seqSolution)
 	for i in range(POPULATION_SIZE-1):
-		solutions.append(mutate(seqSolution))
+		solutions.append(summarize_null_jobs(mutate(seqSolution)))
 
 	return solutions
 
 def selectParents(evaluation, population):
-	pass
+	# first take two random parents
+	solution1 = rand.choice(population)
+	solution2 = rand.choice(population)
+
+	return (solution1, solution2)
 
 def recombine(solution1, solution2):
 	pass
 
 # generate new solution from given solution (indeterministic)
 def mutate(solution):
-
+	foundMutation = False
+	while not foundMutation:
+		randMachineJobs = rand.choice(solution)
+		randSubjob = rand.choice(randMachineJobs)
+		resultSolution = changeSubjobs(solution, randMachineJobs, randSubjob[0])
+		if resultSolution != None:
+			foundMutation = True
+			solution = resultSolution
 
 	return solution
 
-def eval_all(evaluation, offspring):
-	pass
+def eval_all(offspring):
+	evaluation = []
 
-def select_population(offspring):
-	pass
+	for solution in offspring:
+		evaluation.append(eval_single(solution))
 
+	return evaluation
+
+def eval_single(solution):
+	timeMax = 0
+	for machineJobs in solution:
+		currentTime = 0
+		memNullJobLength = 0						# -> do not count "-1" at the end
+		for subjob in machineJobs:
+			if (subjob[0] == -1):
+				memNullJobLength += subjob[1]
+			else:
+				currentTime += memNullJobLength + subjob[1]
+				memNullJobLength = 0
+		if currentTime > timeMax:
+			timeMax = currentTime
+
+	return timeMax
+
+def select_population(evaluation, offspring):
+	population = []
+	for i in range(POPULATION_SIZE):
+		idxMin = evaluation.index(min(evaluation))
+		population.append(offspring[idxMin])
+		evaluation[idxMin] = 999999999999		# some big number -> this entry should not be in population again
+	return population
 
 ########## HELPER METHODS ###########
 
 # return a tuple (left, right) that indicates, how much the subjob can move along the time-axis back and forth
-def get_moving_range(solution, subjobNr):
-	# get range on machine (other subjobs on same machine)
-	range1 = (0, 0)
-	memNullJobLength = 0						# counts the "-1"-jobs - length
-	foundSubjobOfInterest = False
-	for machineJobs in solution:
-		if (foundSubjobOfInterest):
-			break
+# def get_moving_range(solution, subjobNr):
+# 	# get range on machine (other subjobs on same machine)
+# 	range1 = (0, 0)
+# 	memNullJobLength = 0						# counts the "-1"-jobs - length
+# 	foundSubjobOfInterest = False
+# 	for machineJobs in solution:
+# 		if (foundSubjobOfInterest):
+# 			break
 
-		for i in range(len(machineJobs)):
-			if (machineJobs[i][0] == subjobNr):
-				foundSubjobOfInterest = True
-				left = memNullJobLength
-				right = 0													# right = right edge of interesting subjob
-				i += 1														# go to next subjob
-				while i < len(machineJobs) and machineJobs[i][0] == -1:		# sum up all "-1"-jobs right of interesting subjob
-					right += machineJobs[i][1]
-					i += 1
-				if (i >= len(machineJobs)):
-					right = 1000000							# free space on the right side
-				range1 = (left, right)
-				break
+# 		for i in range(len(machineJobs)):
+# 			if (machineJobs[i][0] == subjobNr):
+# 				foundSubjobOfInterest = True
+# 				left = memNullJobLength
+# 				right = 0													# right = right edge of interesting subjob
+# 				i += 1														# go to next subjob
+# 				while i < len(machineJobs) and machineJobs[i][0] == -1:		# sum up all "-1"-jobs right of interesting subjob
+# 					right += machineJobs[i][1]
+# 					i += 1
+# 				if (i >= len(machineJobs)):
+# 					right = 1000000							# free space on the right side
+# 				range1 = (left, right)
+# 				break
 
-			if (machineJobs[i][0] == -1):									# here is a "-1"-job
-				memNullJobLength += machineJobs[i][1]
-			else:															# here is a normal subjob
-				memNullJobLength = 0
+# 			if (machineJobs[i][0] == -1):									# here is a "-1"-job
+# 				memNullJobLength += machineJobs[i][1]
+# 			else:															# here is a normal subjob
+# 				memNullJobLength = 0
 
-	# get range within global job (other subjobs in same job)
-	range2 = (0, 0)
-	foundSubjobOfInterest = False
-	for jobNr in JobDict.keys():
-		if (foundSubjobOfInterest):
-			break
+# 	# get range within global job (other subjobs in same job)
+# 	range2 = (0, 0)
+# 	foundSubjobOfInterest = False
+# 	for jobNr in JobDict.keys():
+# 		if (foundSubjobOfInterest):
+# 			break
 
-		for i in range(len(JobDict[jobNr])):
-			if (JobDict[jobNr][i] == subjobNr):
-				left = 0
-				right = 10000000			# not important -> big number
-				beginInterestingJob = get_begin(solution, subjobNr)
-				if (i > 0):
-					left = beginInterestingJob - (get_begin(solution, JobDict[jobNr][i-1]) + get_subjob(solution, JobDict[jobNr][i-1])[1])
-				if (i < len(JobDict[jobNr])-1):
-					endInteresingJob = beginInterestingJob + get_subjob(solution, subjobNr)[1]
-					right = get_begin(solution, JobDict[jobNr][i+1]) - endInteresingJob
+# 		for i in range(len(JobDict[jobNr])):
+# 			if (JobDict[jobNr][i] == subjobNr):
+# 				left = 0
+# 				right = 10000000			# not important -> big number
+# 				beginInterestingJob = get_begin(solution, subjobNr)
+# 				if (i > 0):
+# 					left = beginInterestingJob - (get_begin(solution, JobDict[jobNr][i-1]) + get_subjob(solution, JobDict[jobNr][i-1])[1])
+# 				if (i < len(JobDict[jobNr])-1):
+# 					endInteresingJob = beginInterestingJob + get_subjob(solution, subjobNr)[1]
+# 					right = get_begin(solution, JobDict[jobNr][i+1]) - endInteresingJob
 
-				range2 = (left, right)
-				foundSubjobOfInterest = True
-				break
+# 				range2 = (left, right)
+# 				foundSubjobOfInterest = True
+# 				break
 
-	print "within machine", range1
-	print "within job", range2
-	return (min(range1[0], range2[0]), min(range1[1], range2[1]))
+# 	print "within machine", range1
+# 	print "within job", range2
+# 	return (min(range1[0], range2[0]), min(range1[1], range2[1]))
 
 def get_begin(solution, subjobNr):
 	for machineJobs in solution:
@@ -180,3 +225,79 @@ def summarize_null_jobs(solution):
 
 	return niceSolution
 
+# compareToPrev: True -> yes, False -> compare to following job
+def changeSubjobs(solution, machineJobs, subjobNr):
+	for i in range(len(machineJobs)):
+		if (machineJobs[i][0] == subjobNr):
+			currentJob = machineJobs[i]
+			compareJob = ()
+			if i > 0:
+				compareJob = machineJobs[i-1] 
+
+			if compareJob == ():
+				return None
+
+			# check if jobs have direct dependecies
+			if (haveSubjobsSameJob(currentJob, compareJob)):
+				return None
+
+			# check dependency within job...
+			newMachineJobs = list(machineJobs)
+			newMachineJobs[i-1] = currentJob
+			newMachineJobs[i] = compareJob
+
+			solutionCopy = list(solution)
+			idx = solution.index(machineJobs)
+			solutionCopy[idx] = newMachineJobs
+			if isValidSolution(solutionCopy):
+				return solutionCopy
+
+			break
+	return None
+
+def haveSubjobsSameJob(subjob1, subjob2):
+	foundJobsCount = 0
+	for machineJobNr in JobDict.keys():
+		count = 0				# count: 1 if subjob1 or subjob2 are in job. 2 if subjob1 and subjob2 are in job
+		for subjob in JobDict[machineJobNr]:
+			if (subjob == subjob1):
+				count += 1
+				foundJobsCount += 1
+			if (subjob == subjob2):
+				count += 1
+				foundJobsCount += 1
+		if (count == 2):
+			return True
+		if (foundJobsCount == 2):
+			return False
+	return False
+
+def isValidSolution(solution):
+	for jobNr in JobDict.keys():
+		endLastJob = 0
+		for subjob in JobDict[jobNr]:
+			beginCurrentJob = get_begin(solution, subjob)
+			if (beginCurrentJob < endLastJob):
+				return False
+			endLastJob = beginCurrentJob + get_subjob(solution, subjob)[1]
+	return True
+
+# transform format
+def out(solution):
+	output = []
+	for machineJobs in solution:
+		time = 0
+		currentMachineJobs = []
+		for subjob in machineJobs:
+			if (subjob[0] != -1):
+				currentMachineJobs.append((time, subjob[1], getJobFromSubjob(subjob[0])))
+			time += subjob[1]
+		output.append(currentMachineJobs)
+	return output
+
+def getJobFromSubjob(subjobNr):
+	for key in JobDict.keys():
+		for subjob in JobDict[key]:
+			if (subjob == subjobNr):
+				return key
+	return -1

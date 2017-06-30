@@ -107,7 +107,7 @@ def plot_solution(solution):
 
 def main():
 	# parse test data
-	test_data_name = "abz5"#"aaaa"
+	test_data_name = "aaaa"
 	if len(sys.argv) > 1:
 		test_data_name = sys.argv[1]
 	task_dict = parse()

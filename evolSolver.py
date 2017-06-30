@@ -129,6 +129,7 @@ def eval_single(solution):
 
 	return timeMax
 
+# idea: select k at random -> select 2 fittest of the selection
 def select_population(evaluation, offspring):
 	population = []
 	for i in range(POPULATION_SIZE):

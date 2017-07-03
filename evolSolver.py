@@ -40,6 +40,7 @@ def solve(machine_count, jobs):
 			offspring.append(mutate(mum))
 
 		evaluation = eval_all(offspring)
+		print "fitness: " + str(min(evaluation))
 		population = select_population(evaluation, offspring)
 
 
@@ -97,19 +98,27 @@ def recombine(solution1, solution2):
 
 # generate new solution from given solution (indeterministic)
 def mutate(solution):
+	# print solution
 	foundMutation = False
 	while not foundMutation:
 		randMachineJobs = rand.choice(solution)
 		randSubjob = rand.choice(randMachineJobs)
+		
+		if randSubjob[0] == -1:
+			continue
+
 		resultSolution = None
 		if (rand.random() > PROP_CHANGE_VS_MOVE):
 			resultSolution = changeSubjobs(solution, randMachineJobs, randSubjob[0])
+			# print "change" + str(randSubjob[0])
 		else:
 			resultSolution = move(solution, randSubjob[0])
+			# print "move" + str(randSubjob[0])
 		if resultSolution != None:
 			foundMutation = True
 			solution = resultSolution
-
+	# print solution
+	# print ".............."
 	return solution
 
 def eval_all(offspring):
@@ -137,6 +146,7 @@ def eval_single(solution):
 	return timeMax
 
 def eval_single2(solution):
+	# print solution
 	count = 0.0
 	for machineJobs in solution:
 		time = 0.0
@@ -144,6 +154,8 @@ def eval_single2(solution):
 			if subjob[0] != -1:
 				count += time/1000
 			time += subjob[1]
+	# print count
+	# print "-------"
 	return count
 
 # idea: select k at random -> select 2 fittest of the selection

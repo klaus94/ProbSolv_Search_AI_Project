@@ -1,4 +1,15 @@
 import random as rand
+import time as t
+
+# Idee: mutieren:
+#  move vs change
+#  move:
+#  	suchen nach subjobs, die bewegt werden koennen
+#   zufaellige Aktion ausfuehren
+#  change:
+#   suchen nach subjobs, die getauscht werden koennen 
+#	zufaellige Aktion ausfuehren
+
 
 # IN: (machine_count, [job1, job2, job3, ...])
 #	->	job... [(machineNr, time), (machineNr, time), ...]
@@ -31,17 +42,17 @@ def solve(machine_count, jobs):
 	while time < EPOCHS:
 		print "Epoch: " + str(time)
 		time += 1
-		(mum, dad) = selectParents(evaluation, population)
+		(mum, dad) = selectParents(evaluation, population)			# 0.000005
 
 		# offspring = recombine(mum, dad)
 		offspring = []
 		for i in range(POPULATION_SIZE):		# generate twice as meny solutions as needed for a population
-			offspring.append(mutate(dad))
+			offspring.append(mutate(dad))		# 0.002
 			offspring.append(mutate(mum))
 
-		evaluation = eval_all(offspring)
+		evaluation = eval_all(offspring)		# 0.0001
 		print "fitness: " + str(min(evaluation))
-		population = select_population(evaluation, offspring)
+		population = select_population(evaluation, offspring)		# 0.00003
 
 
 	evaluation = eval_all(population)
@@ -109,14 +120,14 @@ def mutate(solution):
 
 		resultSolution = None
 		if (rand.random() > PROP_CHANGE_VS_MOVE):
-			resultSolution = changeSubjobs(solution, randMachineJobs, randSubjob[0])
-			# print "change" + str(randSubjob[0])
+			resultSolution = changeSubjobs(solution, randMachineJobs, randSubjob[0])	# 0.00005
 		else:
-			resultSolution = move(solution, randSubjob[0])
-			# print "move" + str(randSubjob[0])
+			resultSolution = move(solution, randSubjob[0])		# 0.00005
+
 		if resultSolution != None:
 			foundMutation = True
 			solution = resultSolution
+
 	# print solution
 	# print ".............."
 	return solution

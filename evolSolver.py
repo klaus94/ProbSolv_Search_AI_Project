@@ -28,7 +28,7 @@ import time as t
 # hyper-parameters
 POPULATION_SIZE = 10
 EPOCHS =100
-PROP_CHANGE_VS_MOVE = 0.9
+PROP_CHANGE_VS_MOVE = 0.5
 
 MaximumTime = 100		# will be later replaced by a better approximation of the max length
 JobDict = {}			# holds the dicionary {job1: [subjob1, subjob2, ..], job2: [..]}
@@ -107,8 +107,30 @@ def selectParents(evaluation, population):
 def recombine(solution1, solution2):
 	pass
 
-# generate new solution from given solution (indeterministic)
 def mutate(solution):
+	possibleSubjobs = []
+	if rand.random() > PROP_CHANGE_VS_MOVE:
+		possibleSubjobs = getPossibleChanges(solution)
+		# print "pos. changes" + str(possibleSubjobs)
+		if len(possibleSubjobs) == 0:
+			print "no possible action found"
+		else:
+			solution = changeForce(solution, rand.choice(possibleSubjobs))
+			# print "change-sol " + str(solution)
+	else:
+		possibleSubjobs = getPossibleMoves(solution)
+		# print "pos. moves" + str(possibleSubjobs)
+		if len(possibleSubjobs) == 0:
+			print "no possible action found"
+		else:
+			solution = moveForce(solution, rand.choice(possibleSubjobs))
+			# print "move-sol " + str(solution)
+
+	return solution
+
+
+# generate new solution from given solution (indeterministic)
+def mutate_orig(solution):
 	# print solution
 	foundMutation = False
 	while not foundMutation:
@@ -288,7 +310,6 @@ def summarize_null_jobs(solution):
 
 	return niceSolution
 
-# compareToPrev: True -> yes, False -> compare to following job
 def changeSubjobs(solution, machineJobs, subjobNr):
 	for i in range(len(machineJobs)):
 		if (machineJobs[i][0] == subjobNr):
@@ -364,3 +385,72 @@ def getJobFromSubjob(subjobNr):
 			if (subjob == subjobNr):
 				return key
 	return -1
+
+# return array of subjobNr, that can change with their pre-subjob
+def getPossibleChanges(solution):
+	possibleSubjobs = []
+	for machineJobs in solution:
+		for i in range(len(machineJobs)):
+			currentJob = machineJobs[i]
+			compareJob = ()
+			if i > 0:
+				compareJob = machineJobs[i-1]
+
+			if compareJob == () or currentJob[0] == -1:
+				continue
+
+			# check if it is a valid solution after changing jobs
+			newMachineJobs = list(machineJobs)
+			newMachineJobs[i-1] = currentJob
+			newMachineJobs[i] = compareJob
+
+			solutionCopy = list(solution)
+			idx = solution.index(machineJobs)
+			solutionCopy[idx] = newMachineJobs
+			if isValidSolution(solutionCopy):
+				possibleSubjobs.append(currentJob[0])
+	return possibleSubjobs
+
+
+def getPossibleMoves(solution):
+	possibleSubjobs = []
+	for machineJobs in solution:
+		for subjob in machineJobs:
+			currentRange = get_moving_range(solution, subjob[0])
+			if currentRange[0] != 0:
+				possibleSubjobs.append(subjob[0])
+	return possibleSubjobs
+
+def moveForce(solution, subjobNr):
+	(left, right) = get_moving_range(solution, subjobNr)
+	if (left == 0):
+		return None
+
+	subjobBegin = get_begin(solution, subjobNr)
+
+	for machineJobs in solution:
+		for i in range(len(machineJobs)):
+			if (machineJobs[i][0] == subjobNr):
+				if (i == 0 or machineJobs[i-1][0] != -1):		# double check, that pre job is empty (-1)
+					return None
+				if (machineJobs[i-1][1] < left):
+					machineJobs[i-1][1] -= left
+				elif (machineJobs[i-1][1] == left):
+					del machineJobs[i-1]
+				return solution
+
+	return solution
+
+def changeForce(solution, subjobNr):
+	for machineJobs in solution:
+		for i in range(len(machineJobs)):
+			if machineJobs[i][0] == subjobNr:
+				currentJob = machineJobs[i]
+				compareJob = machineJobs[i-1]
+				newMachineJobs = list(machineJobs)
+				newMachineJobs[i-1] = currentJob
+				newMachineJobs[i] = compareJob
+				idx = solution.index(machineJobs)
+				solution[idx] = newMachineJobs
+				return solution
+	return None

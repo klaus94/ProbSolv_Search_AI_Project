@@ -108,15 +108,27 @@ def plot_solution(solution):
 def main():
 	# parse test data
 	test_data_name = "bbbb" #"aaaa"
+	method = "evol"
 	if len(sys.argv) > 1:
-		test_data_name = sys.argv[1]
+		#test_data_name = sys.argv[1]
+		method = sys.argv[1]
+
+		if len(sys.argv) > 2:
+			test_data_name = sys.argv[2]
+
 	task_dict = parse()
 	#print task_dict.keys()
 	(machine_count, jobs) = task_dict[test_data_name]
 
 	# call our algorithm
 	# print jobs
-	solution = algorithms.evol(machine_count, jobs)
+	solution = []
+	if method == "evol":
+		solution = algorithms.evol(machine_count, jobs)
+	elif method == "asp":
+		solution = algorithms.asp(machine_count, jobs)
+	else:
+		solution = algorithms.evol(machine_count, jobs)
 
 	# plot the solution
 	if isMatplotlibInstalled:

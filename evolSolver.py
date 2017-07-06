@@ -113,15 +113,16 @@ def mutate(solution):
 		possibleSubjobs = getPossibleChanges(solution)
 		# print "pos. changes" + str(possibleSubjobs)
 		if len(possibleSubjobs) == 0:
-			print "no possible action found"
+			print "no possible action found - change"
 		else:
 			solution = changeForce(solution, rand.choice(possibleSubjobs))
 			# print "change-sol " + str(solution)
 	else:
 		possibleSubjobs = getPossibleMoves(solution)
+		print possibleSubjobs
 		# print "pos. moves" + str(possibleSubjobs)
 		if len(possibleSubjobs) == 0:
-			print "no possible action found"
+			print "no possible action found - move"
 		else:
 			solution = moveForce(solution, rand.choice(possibleSubjobs))
 			# print "move-sol " + str(solution)
@@ -131,7 +132,6 @@ def mutate(solution):
 
 # generate new solution from given solution (indeterministic)
 def mutate_orig(solution):
-	# print solution
 	foundMutation = False
 	while not foundMutation:
 		randMachineJobs = rand.choice(solution)
@@ -150,8 +150,6 @@ def mutate_orig(solution):
 			foundMutation = True
 			solution = resultSolution
 
-	# print solution
-	# print ".............."
 	return solution
 
 def eval_all(offspring):
@@ -179,7 +177,6 @@ def eval_single(solution):
 	return timeMax
 
 def eval_single2(solution):
-	# print solution
 	count = 0.0
 	for machineJobs in solution:
 		time = 0.0
@@ -187,8 +184,6 @@ def eval_single2(solution):
 			if subjob[0] != -1:
 				count += time/1000
 			time += subjob[1]
-	# print count
-	# print "-------"
 	return count
 
 # idea: select k at random -> select 2 fittest of the selection
@@ -275,8 +270,6 @@ def get_moving_range(solution, subjobNr):
 				foundSubjobOfInterest = True
 				break
 
-	# print "within machine", range1
-	# print "within job", range2
 	return (min(range1[0], range2[0]), min(range1[1], range2[1]))
 
 def get_begin(solution, subjobNr):
@@ -416,6 +409,8 @@ def getPossibleMoves(solution):
 	possibleSubjobs = []
 	for machineJobs in solution:
 		for subjob in machineJobs:
+			if subjob[1] == -1:
+				continue
 			currentRange = get_moving_range(solution, subjob[0])
 			if currentRange[0] != 0:
 				possibleSubjobs.append(subjob[0])
@@ -424,7 +419,8 @@ def getPossibleMoves(solution):
 def moveForce(solution, subjobNr):
 	(left, right) = get_moving_range(solution, subjobNr)
 	if (left == 0):
-		return None
+		print "error - move could not be executed"
+		return solution
 
 	subjobBegin = get_begin(solution, subjobNr)
 
@@ -432,9 +428,11 @@ def moveForce(solution, subjobNr):
 		for i in range(len(machineJobs)):
 			if (machineJobs[i][0] == subjobNr):
 				if (i == 0 or machineJobs[i-1][0] != -1):		# double check, that pre job is empty (-1)
-					return None
-				if (machineJobs[i-1][1] < left):
-					machineJobs[i-1][1] -= left
+					print "error - move could not be executed"
+					return solution
+				if (machineJobs[i-1][1] > left):
+					newVal = list(machineJobs[i-1])[1] - left
+					machineJobs[i-1] = (machineJobs[i-1][0], newVal)
 				elif (machineJobs[i-1][1] == left):
 					del machineJobs[i-1]
 				return solution
@@ -453,4 +451,5 @@ def changeForce(solution, subjobNr):
 				idx = solution.index(machineJobs)
 				solution[idx] = newMachineJobs
 				return solution
-	return None
+	print "error - change could not be executed"
+	return solution

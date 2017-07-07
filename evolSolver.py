@@ -32,7 +32,7 @@ PROP_CHANGE_VS_MOVE = 0.5
 
 MaximumTime = 100		# will be later replaced by a better approximation of the max length
 JobDict = {}			# holds the dicionary {job1: [subjob1, subjob2, ..], job2: [..]}
-rand.seed(5)
+rand.seed(3)
 
 def solve(machine_count, jobs):
 	population = init(machine_count, jobs, POPULATION_SIZE)			# list of solutions

@@ -32,7 +32,7 @@ PROP_CHANGE_VS_MOVE = 0.5
 
 MaximumTime = 100		# will be later replaced by a better approximation of the max length
 JobDict = {}			# holds the dicionary {job1: [subjob1, subjob2, ..], job2: [..]}
-
+rand.seed(5)
 
 def solve(machine_count, jobs):
 	population = init(machine_count, jobs, POPULATION_SIZE)			# list of solutions
@@ -113,16 +113,18 @@ def mutate(solution):
 		possibleSubjobs = getPossibleChanges(solution)
 		# print "pos. changes" + str(possibleSubjobs)
 		if len(possibleSubjobs) == 0:
-			print "no possible action found - change"
+			pass
+			# print "no possible action found - change"
 		else:
 			solution = changeForce(solution, rand.choice(possibleSubjobs))
 			# print "change-sol " + str(solution)
 	else:
 		possibleSubjobs = getPossibleMoves(solution)
-		print possibleSubjobs
+		# print possibleSubjobs
 		# print "pos. moves" + str(possibleSubjobs)
 		if len(possibleSubjobs) == 0:
-			print "no possible action found - move"
+			pass
+			# print "no possible action found - move"
 		else:
 			solution = moveForce(solution, rand.choice(possibleSubjobs))
 			# print "move-sol " + str(solution)
@@ -419,7 +421,7 @@ def getPossibleMoves(solution):
 def moveForce(solution, subjobNr):
 	(left, right) = get_moving_range(solution, subjobNr)
 	if (left == 0):
-		print "error - move could not be executed"
+		# print "error - move could not be executed"
 		return solution
 
 	subjobBegin = get_begin(solution, subjobNr)
@@ -428,7 +430,7 @@ def moveForce(solution, subjobNr):
 		for i in range(len(machineJobs)):
 			if (machineJobs[i][0] == subjobNr):
 				if (i == 0 or machineJobs[i-1][0] != -1):		# double check, that pre job is empty (-1)
-					print "error - move could not be executed"
+					# print "error - move could not be executed"
 					return solution
 				if (machineJobs[i-1][1] > left):
 					newVal = list(machineJobs[i-1])[1] - left
@@ -451,5 +453,5 @@ def changeForce(solution, subjobNr):
 				idx = solution.index(machineJobs)
 				solution[idx] = newMachineJobs
 				return solution
-	print "error - change could not be executed"
+	# print "error - change could not be executed"
 	return solution
